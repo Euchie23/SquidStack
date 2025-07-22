@@ -2,9 +2,10 @@
 
 ## Objective 🎯
 
-SquidStack is a curated version of a larger private repository **(Squid_Fest)** where the full version control and raw development occur. Updates are copied here once polished. Version control and history exists in the private repo and is available upon request for collaborators or reviewers.
+SquidStack is a curated version of a larger private repository **(Squid_Fest)** where the full version control and raw development occur. Updates are copied here once polished. **Version control and history exists in the private repo and is available upon request for collaborators or reviewers**.
 
-<u>**What is the Squid_Fest repository about?**</u>
+**What is the Squid_Fest repository about?**
+____________________________________________
 
 Squid Fest is a data science portfolio that represents an extension and refinement of my graduate thesis work and interdisciplinary research conducted as a Master's student and Research Assistant at National Taiwan University (2021–2024). It presents a snapshot of applied research involving marine resource sustainability, ecosystem health, and data-driven fisheries science. <br>
 
