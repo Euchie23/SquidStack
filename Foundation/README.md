@@ -6,7 +6,7 @@ Illex argentinus, the Argentine shortfin squid, represents a significant bioindi
 
 ### Project Scope and Objectives<br>
 
-The full project analyzes trace metals and organic compounds in squid tissues (muscle, liver, stomach, ink sac) to assess contamination levels, validate analytical methods, explore temporal trends, and evaluate human health risks in key consumption regions.<br> The first module (Foundation) introduces the study’s context and the analytical methods used, laying the groundwork for deeper analysis and interpretation in subsequent modules.<br><br>
+The full project analyzes trace metals and organic compounds in squid tissues (muscle, liver, stomach, ink sac) to assess contamination levels, validate analytical methods, explore temporal trends, and evaluate human health risks in key consumption regions.<br> The first module **(Foundation)** introduces the study’s context and the analytical methods used, laying the groundwork for deeper analysis and interpretation in subsequent modules.<br><br>
 
 ### 🧪 Analytical Method Validation<br>
 
