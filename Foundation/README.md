@@ -7,13 +7,13 @@ Illex argentinus, the Argentine shortfin squid, represents a significant bioindi
 
 Project Scope and Objectives<br>
 
-The project analyzes trace metals and organic compounds in squid tissues (muscle, liver, stomach, ink sac) to assess contamination levels, validate analytical methods, explore temporal trends, and evaluate human health risks in key consumption regions.<br>
+The full project analyzes trace metals and organic compounds in squid tissues (muscle, liver, stomach, ink sac) to assess contamination levels, validate analytical methods, explore temporal trends, and evaluate human health risks in key consumption regions.<br> The first module (Foundation) introduces the study’s context and the analytical methods used, laying the groundwork for deeper analysis and interpretation in subsequent modules.
 
 🧪 Analytical Method Validation<br>
 
 To ensure data reliability, trace metals were quantified using ICP-MS [(Instrument Parameters)](Methodology/Metals/Instrumnt_Param.pdf) with validation performed against Certified Reference Material (NIST CRM 1566b, Oyster Tissue) [(More information provided here)](https://tsapps.nist.gov/srmext/certificates/1566b.pdf). External calibration [(See Calibration Ranges)](Methodology/Metals/Calib_Stand_Rangs.png) and recovery assessments confirmed method accuracy [(View CRM Results CSV)](https://github.com/Euchie23/SquidStack/blob/main/docs/Metals/recovery_rate.csv)  for metals and others (anonymized here as Metal_A, Metal_B, etc. for confidentiality).
 
-Organic contaminants were analyzed by LC-MS/MS. Although no compound-specific CRM is available for organic compounds in squid tissue, validation was based on adapted literature methods (Feo et al., 2020) and internal standards, with compounds anonymized (Organic_A, Organic_B, etc.).
+Organic contaminants were analyzed by LC-MS/MS [(Instrument Parameters)](Methodology/Organics/Instrumnt_Params.pdf). Although no compound-specific CRM is available for organic compounds in squid tissue, validation was based on adapted literature methods (Feo et al., 2020) [(More information provided here)](Methodology/Organics/Anlyt_Method_Valid_Organics.md)and internal standards, with compounds anonymized (Organic_A, Organic_B, etc.).
 
 Key Points:
 Trace metals: CRM recovery confirmed accuracy; matrix digestion and instrument parameters rigorously controlled.
