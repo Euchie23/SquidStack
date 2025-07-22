@@ -2,7 +2,7 @@
 
 ## Overview 📚🦑🃏
 
-SquidStack is a curated version of a larger private repository **(Squid_Fest)** where the full version control and raw development occur. Updates are copied here once polished. **Version control and history exists in the private repo and is available upon request for collaborators or reviewers**.
+SquidStack is a curated version of a larger private repository **(Squid_Fest)** where the full version control and raw development occur. Updates are copied here once polished. **🛂Version control and history exists in the private repo and is available upon request for collaborators or reviewers🛂.**
 
 ### **What is the Squid_Fest repository about?**
 
