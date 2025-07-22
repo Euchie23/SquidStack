@@ -4,7 +4,7 @@
 
 Illex argentinus, the Argentine shortfin squid, represents a significant bioindicator species due to its commercial importance and its ability to bioaccumulate pollutants. This study focuses on temporal and tissue-specific contaminant patterns during the 2019–2021 period, which includes the COVID-19 lockdowns, a natural occurence affecting pollution levels <br><br>
 
-### Project Scope and Objectives<br>
+### 🎯 Project Scope and Objectives<br>
 
 The full project analyzes trace metals and organic compounds in squid tissues (muscle, liver, stomach, ink sac) to assess contamination levels, validate analytical methods, explore temporal trends, and evaluate human health risks in key consumption regions.<br> The first module **(Foundation)** introduces the study’s context and the analytical methods used, laying the groundwork for deeper analysis and interpretation in subsequent modules.<br><br>
 
