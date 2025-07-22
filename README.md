@@ -36,12 +36,12 @@ This Squid_Fest portfolio reflects skills developed and applied over several mon
 
 🔧 Tools, Techniques & What I Learned
 This project involved a multidisciplinary tech stack and data science pipeline. Below are the tools and methods that powered the analyses — and the skills I developed throughout:
-Data Engineering: Built ETL pipelines in R/Python, SQL-based structuring
-Modeling: GAMs, Tweedie GLMs, Bayesian models, Environmental SDMs, AutoML
-Geospatial Analytics: NetCDF integration, PostGIS querying, QGIS mapping
-Dashboards: Shiny, Streamlit; parameterized EDI/HQ tools for stakeholders
-Visualization: ggplot2, matplotlib, seaborn, plotly
-Programming & Productivity: R, Python, PostgreSQL, Bash, Git, Excel (VBA)
+ - Data Engineering: Built ETL pipelines in R/Python, SQL-based structuring
+ - Modeling: GAMs, Tweedie GLMs, Bayesian models, Environmental SDMs, AutoML
+ - Geospatial Analytics: NetCDF integration, PostGIS querying, QGIS mapping
+ - Dashboards: Shiny, Streamlit; parameterized EDI/HQ tools for stakeholders
+ - Visualization: ggplot2, matplotlib, seaborn, plotly
+ - Programming & Productivity: R, Python, PostgreSQL, Bash, Git, Excel (VBA)
 
 ---
 
