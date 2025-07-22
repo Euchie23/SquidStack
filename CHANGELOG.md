@@ -1,4 +1,4 @@
-#📅 SquidStack Changelog (Updates in SquidStack repo)
+# 📅 SquidStack Changelog (Updates in SquidStack repo)
 
 ## [July 2025]
   - Created SquisStack repo for dashboard modules
