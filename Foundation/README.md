@@ -11,7 +11,7 @@ The project analyzes trace metals and organic compounds in squid tissues (muscle
 
 🧪 Analytical Method Validation<br>
 
-To ensure data reliability, trace metals were quantified using ICP-MS [(Instrument Parameters)](Methodology/Metals/Instrumnt_Param.pdf) with validation performed against Certified Reference Material (NIST CRM 1566b, Oyster Tissue). External calibration and recovery assessments confirmed method accuracy for metals such as Al, As, Se, and others (anonymized here as Metal_A, Metal_B, etc. for confidentiality).
+To ensure data reliability, trace metals were quantified using ICP-MS [(Instrument Parameters)](Methodology/Metals/Instrumnt_Param.pdf) with validation performed against Certified Reference Material (NIST CRM 1566b, Oyster Tissue) [(More information provided here)]([Methodology/Metals/Instrumnt_Param.pdf](https://tsapps.nist.gov/srmext/certificates/1566b.pdf)). External calibration [(See Calibration Ranges)](Methodology/Metals/Calib_Stand_Rangs.png) and recovery assessments confirmed method accuracy for metals such as Al, As, Se, and others (anonymized here as Metal_A, Metal_B, etc. for confidentiality).
 
 Organic contaminants were analyzed by LC-MS/MS. Although no compound-specific CRM is available for organic compounds in squid tissue, validation was based on adapted literature methods (Feo et al., 2020) and internal standards, with compounds anonymized (Organic_A, Organic_B, etc.).
 
