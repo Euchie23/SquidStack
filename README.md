@@ -34,7 +34,7 @@ This repository includes a few projects that define three core topics developed 
  ### 🧠 Learning Note <br>
 This Squid_Fest portfolio reflects skills developed and applied over several months of focused, self-directed study and hands-on practice. While these tools and techniques are still being refined, the work demonstrates a solid and growing proficiency in applying data science to complex ecological problems with real-world relevance. <br> <br>
 
-🔧 Tools, Techniques & What I Learned
+🔧 Tools, Techniques & What I Learned <br>
 This project involved a multidisciplinary tech stack and data science pipeline. Below are the tools and methods that powered the analyses — and the skills I developed throughout:
  - Data Engineering: Built ETL pipelines in R/Python, SQL-based structuring
  - Modeling: GAMs, Tweedie GLMs, Bayesian models, Environmental SDMs, AutoML
