@@ -21,14 +21,14 @@ This repository includes a few projects that define three core topics developed 
 **To comply with research confidentiality and ethical standards, the datasets used in this repository have been simulated to closely resemble real-world data. Pollutant names and other sensitive variables were anonymized. The primary goal of these projects is to demonstrate analytical workflows, modeling techniques, and geospatial methodologies used during real research conducted at the National Taiwan University. As such, any interpretations or conclusions drawn from this repository should not be considered accurate representations of actual marine conditions in the study region.** <br> <br>
 
 ### 📁 SquidStack Dashboard Modules 📁 <br>
-    Task-0-CRM (Analytical Method validation)
-    Task-1-Data_Preprocessing
-    Task-2-Detectiion_summary
-    Task-3-Data_mining
-    Task-4-Temporal_variations_in_Chemical Concentrations
-    Task-5-Human_Health_Risk
-    Appendix
-    shiny_dashboard
+
+| Dashboard Modules       |    Status        |  Links  |
+|-------------------------|------------------|---------------------|
+| Foundation              |    Finished      | <a href="https://github.com/Euchie23/Squid-Fest">Squid Fest</a>|
+| Exploration             |  In progress..   | <a href="https://github.com/Euchie23/Squid-Fest">Squid Fest</a>|
+| Fluctuation             |  In progress..   | <a href="https://github.com/Euchie23/Squid-Fest">Squid Fest</a>|
+| Risk Evaluation         |  In progress..   | <a href="https://github.com/Euchie23/Squid-Fest">Squid Fest</a>|
+
 
 
  ### 🧠 Learning Note <br>
