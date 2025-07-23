@@ -2,7 +2,7 @@
 
 ## Overview 📚🦑🃏
 
-SquidStack is a curated version of a larger private repository **(Squid_Fest)** where the full version control and raw development occur. Its main purpose is for the development of interactive dashboards to present data workflows and explore results in an accessible, visual format. Updates are copied here from the Squid_Fest repo once polished. 
+SquidStack is a curated version of a larger private repository **(Squid_Fest)** where the full version control and raw development occur. Its main purpose is for the development of interactive dashboards to present data workflows and explore results in an accessible, visual format. Updates are copied here from the Squid_Fest repo once polished [(Click here for  SquidStack update log)](SquidStack/CHANGELOG.md). 
 
 **🛂Version control and history exists in the private repo (squid_Fest) and is available upon request for collaborators or reviewers🛂.** 
 
