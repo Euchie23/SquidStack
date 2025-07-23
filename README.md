@@ -24,10 +24,10 @@ This repository includes a few projects that define three core topics developed 
 
 | Dashboard Modules       |    Status        |  Links  | 
 |-------------------------|------------------|---------------------|
-| Foundation              |     Done         | <a href="https://github.com/Euchie23/SquidStack/Foundation">Foundation</a>|
-| Exploration             |  In progress..   | <a href="https://github.com/Euchie23/Squid-Fest">Squid Fest</a>|
-| Fluctuation             |  In progress..   | <a href="https://github.com/Euchie23/Squid-Fest">Squid Fest</a>|
-| Risk Evaluation         |  In progress..   | <a href="https://github.com/Euchie23/Squid-Fest">Squid Fest</a>|
+| Foundation              |     Done         |<a href="https://github.com/Euchie23/SquidStack/tree/main/Foundation">Foundation</a>|
+| Exploration             |  In progress..   | Pending...
+| Fluctuation             |  In progress..   | Pending...
+| Risk Evaluation         |  In progress..   | Pending...
 
 
 
