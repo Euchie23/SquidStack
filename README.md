@@ -24,12 +24,13 @@ This repository includes a few projects that define three core topics developed 
 
 ### 📁 SquidStack Dashboard Modules 📁 <br>
 
-| Dashboard Modules   |    Status        |  README  | 
-|---------------------|------------------|---------------------|
-| <a href="https://euchie23.shinyapps.io/foundation/">Foundation</a>|          |     Done         |<a href="https://github.com/Euchie23/SquidStack/tree/main/Foundation">Foundation</a>|
-| Exploration         |  In progress..   | Pending...
-| Fluctuation         |  In progress..   | Pending...
-| Risk Evaluation     |  In progress..   | Pending...
+| Dashboard Modules                                         | Status         | README                                                                       |
+|-----------------------------------------------------------|----------------|------------------------------------------------------------------------------|
+| [Foundation](https://euchie23.shinyapps.io/foundation/)   | ✅ Done        | [Click Here](https://github.com/Euchie23/SquidStack/tree/main/Foundation)    |
+| Exploration                                               | In progress... | Pending...                                                                   |
+| Fluctuation                                               | In progress... | Pending...                                                                   |
+| Risk Evaluation                                           | In progress... | Pending...                                                                   |
+
 
 
 
