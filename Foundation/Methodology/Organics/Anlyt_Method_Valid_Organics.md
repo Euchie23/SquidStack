@@ -17,3 +17,6 @@ The method was adapted based on the guidelines set out by FEO et al. (2020), whe
 A complete validation of the analytical method, including the calculation of recovery rates, LOQs, and RSDs for the targeted small organic compounds, will be essential in future research. Obtaining this data will strengthen the method’s reliability and suitability for marine contamination studies.
 
 ---
+## 📂 Reference
+
+Feo, M. L., Bagnati, R., Passoni, A., Riva, F., Salvagio Manta, D., Sprovieri, M., Traina, A., Zuccato, E., & Castiglioni, S. (2020). Pharmaceuticals and other contaminants in waters and sediments from Augusta Bay (southern Italy). Science of the Total Environment, 739, Article 139827. https://doi.org/10.1016/j.scitotenv.2020.139827
