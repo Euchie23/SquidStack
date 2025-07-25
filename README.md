@@ -20,7 +20,7 @@ This repository includes a few projects that define three core topics developed 
 
 
 ## **⚠️Data Confidentiality Notice⚠️** 
-**To comply with research confidentiality and ethical standards, the datasets used in this repository have been simulated to closely resemble real-world data. Pollutant names and other sensitive variables were anonymized. The primary goal of these projects is to demonstrate analytical workflows, modeling techniques, and geospatial methodologies used during real research conducted at the National Taiwan University. As such, any interpretations or conclusions drawn from this repository should not be considered accurate representations of actual marine conditions in the study region.** <br><br>
+**To comply with research confidentiality and ethical standards, the datasets used in this repository have been simulated to closely resemble the real-world data used in the thesis. Pollutant names and other sensitive variables were anonymized. The primary goal of these projects is to demonstrate analytical workflows, modeling techniques, and geospatial methodologies used during real research conducted at the National Taiwan University. As such, any interpretations or conclusions drawn from this repository should not be considered accurate representations of actual marine conditions in the study region.** <br><br>
 
 ### 📁 SquidStack Dashboard Modules 📁 <br>
 
