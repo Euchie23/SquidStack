@@ -29,7 +29,7 @@ This project primarily focuses on validating analytical methods used to detect t
   
 - **Organic Compounds**: Since no CRM exists for these compounds, the proposed modified approach (Feo et al., 2020) could improve validation processes, but further refinement is necessary.<br>
  ![Organics_Screenshot](https://drive.google.com/uc?export=view&id=1-1Lcn3j4kFZKxzO1R5HT6lU6Ir_MxhIR)
-*Note: The screenshot above is a snippet of the full markdown and explains the validation status and proposed validation technique for the organic compounds.*
+*Note: The screenshot above is a snippet of the full markdown, linked to the dashboard, which explains the validation status and proposed validation technique for the organic compounds.*
 <br><br>
 
 ### 📋 Executive Summary:
