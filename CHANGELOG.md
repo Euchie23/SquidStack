@@ -1,5 +1,11 @@
 # 📅 SquidStack Changelog (To record updates in SquidStack repo)
 
+## [August 2025]
+- More modifications made to Foundation dashboard Script
+- Redeployed Foundation Dashboard
+- Working on Exploration Dashboard
+
+
 ## [July 2025]
   - Created SquisStack repo for dashboard modules
   - Added README file to introduce repo
