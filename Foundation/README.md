@@ -21,14 +21,14 @@ This project primarily focuses on validating analytical methods used to detect t
 #### Key Insights from Validation:
 - **Trace Metals**: Metals H and J showed unusual recovery rates, indicating potential interference or matrix effects. This is an important observation that calls for further investigation to ensure accurate readings. Since Metal I could not be validated using the current CRM, additional validation through spike recovery or alternative reference materials could be used.
 
-- **Organic Compounds**: Since no CRM exists for these compounds, the proposed modified approach (Feo et al., 2020) could improve validation processes, but further refinement is necessary.
+- **Organic Compounds**: Since no CRM exists for these compounds, the proposed modified approach (Feo et al., 2020) could improve validation processes, but further refinement is necessary.<br><br>
 
-### Executive Summary:
+### 📋 Executive Summary:
 This dashboard provides an overview of method validation efforts for trace metals and organic contaminants in squid tissues. A primary concern is the elevated recovery rates for certain metals (Metal H and Metal J), which may indicate matrix effects or contamination. Additionally, Metal I could not be validated for accuracy due to its absence in the certificate of measurement for the current CRM. To address this, future validation efforts may require the use of spike recovery techniques or alternative reference materials for Metal I and possibly Metals H and J.
 
-For organic compounds, the lack of an appropriate CRM led to a modified validation approach. While promising, this approach requires further refinement. This study is vital for ensuring the reliability of contamination data, which will guide future research and policy decisions regarding marine pollution and public health.
+For organic compounds, the lack of an appropriate CRM led to a modified validation approach. While promising, this approach requires further refinement. This study is vital for ensuring the reliability of contamination data, which will guide future research and policy decisions regarding marine pollution and public health.<br><br>
 
-### Recommendations:
+### 📝 Recommendations:
 
 - **Further Investigation**: The unusual recovery rates for Metals I and J need to be explored further to identify the cause of the matrix effects or contamination. Additional studies should focus on refining the analysis for these metals to improve the accuracy of future readings.
 
