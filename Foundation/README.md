@@ -8,7 +8,7 @@ Illex argentinus, the Argentine shortfin squid, is a crucial species in marine e
 This project primarily focuses on validating analytical methods used to detect trace metals and organic contaminants in squid tissues. The dashboard displays average recovery rates for trace metals and details the approach taken to validate the detection of organic compounds, acknowledging the complexity of the method and the lack of a specific Certified Reference Material (CRM) for organic compounds in squid tissues. 
 
 ![Dashboard Screenshot](https://drive.google.com/uc?export=view&id=1PD2BbKdcjNXCILbI2lW43rVXJX92xunH)
-
+*Note: The screenshot above shows a partial view of the dashboard.*
 <br><br>
 
 
@@ -23,9 +23,14 @@ This project primarily focuses on validating analytical methods used to detect t
 
 
 #### Key Insights from Validation:
-- **Trace Metals**: Metals H and J showed unusual recovery rates, indicating potential interference or matrix effects. This is an important observation that calls for further investigation to ensure accurate readings. Since Metal I could not be validated using the current CRM, additional validation through spike recovery or alternative reference materials could be used.
-
-- **Organic Compounds**: Since no CRM exists for these compounds, the proposed modified approach (Feo et al., 2020) could improve validation processes, but further refinement is necessary.<br><br>
+- **Trace Metals**: Metals H and J showed unusual recovery rates, indicating potential interference or matrix effects. This is an important observation that calls for further investigation to ensure accurate readings. Since Metal I could not be validated using the current CRM, additional validation through spike recovery or alternative reference materials could be used. <br>
+  ![Recovery_rate_table_Screenshot](https://drive.google.com/uc?export=view&id=1lm4IUYNWdwMEkOOJQAaUIYPSUNJRmfzI)
+  *Note: The screenshot above shows the recovery rate % table for 9 trace metals.* <br><br>
+  
+- **Organic Compounds**: Since no CRM exists for these compounds, the proposed modified approach (Feo et al., 2020) could improve validation processes, but further refinement is necessary.<br>
+ ![Recovery_rate_table_Screenshot](https://drive.google.com/uc?export=view&id=1-1Lcn3j4kFZKxzO1R5HT6lU6Ir_MxhIR)
+*Note: The screenshot above is a snippet of the full markdown and explains the validation status and proposed validation technique for the organic compounds.*
+<br><br>
 
 ### 📋 Executive Summary:
 This dashboard provides an overview of method validation efforts for trace metals and organic contaminants in squid tissues. A primary concern is the elevated recovery rates for certain metals (Metal H and Metal J), which may indicate matrix effects or contamination. Additionally, Metal I could not be validated for accuracy due to its absence in the certificate of measurement for the current CRM. To address this, future validation efforts may require the use of spike recovery techniques or alternative reference materials for Metal I and possibly Metals H and J.
