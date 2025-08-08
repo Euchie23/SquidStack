@@ -5,7 +5,11 @@
 Illex argentinus, the Argentine shortfin squid, is a crucial species in marine ecosystems and fisheries. Its ability to bioaccumulate pollutants makes it a useful bioindicator for assessing marine pollution levels, particularly in regions with high seafood consumption. The dashboard presents an analysis of method validation for trace metal analysis and organic compound contamination, which aims to ensure the reliability and accuracy of the analytical methods used in this study.<br>
 
 ### Summary
-This project primarily focuses on validating analytical methods used to detect trace metals and organic contaminants in squid tissues. The dashboard displays average recovery rates for trace metals and details the approach taken to validate the detection of organic compounds, acknowledging the complexity of the method and the lack of a specific Certified Reference Material (CRM) for organic compounds in squid tissues. <br><br>
+This project primarily focuses on validating analytical methods used to detect trace metals and organic contaminants in squid tissues. The dashboard displays average recovery rates for trace metals and details the approach taken to validate the detection of organic compounds, acknowledging the complexity of the method and the lack of a specific Certified Reference Material (CRM) for organic compounds in squid tissues. 
+
+![Dashboard Screenshot](/shiny_dashboards/Foundation/f_dash.png)
+
+<br><br>
 
 
 ### 🧪 Analytical Method Validation<br>
@@ -30,11 +34,11 @@ For organic compounds, the lack of an appropriate CRM led to a modified validati
 
 ### 📝 Recommendations:
 
-- **Further Investigation**: The unusual recovery rates for Metals I and J need to be explored further to identify the cause of the matrix effects or contamination. Additional studies should focus on refining the analysis for these metals to improve the accuracy of future readings.
+- **Further Investigation**: The unusual recovery rates for Metals H and J need to be explored further to identify the cause of the matrix effects or contamination. Additional studies should focus on refining the analysis for these metals to improve the accuracy of future readings. Future validation efforts by using spike recovery techniques or alternative reference materials may be required, especially for Metal I, due to its abscence in the current CRM and possibly for Metals H and J.
 
 - **Improved Methodology for Organic Compounds**: The proposed method validation approach for organic contaminants, based on Feo et al. (2020), should be tested and refined, possibly with the development of new CRMs for organic compounds in marine species to ensure more accurate results.
 
-- **Future Data Collection**: While the dashboard focuses on validation, future projects could expand to include a larger dataset to assess actual contamination levels in various tissues and years, which could then be used for further analytical insights.<br><br>
+- **Future Data Collection**: While the dashboard primarily focuses on method validation, future data collection should prioritize the inclusion of metals not included in current CRMs (such as Metal I), and organic compounds, which currently lack specific CRMs. Expanding the dataset to assess these factors across different tissues and years could increase the chances of these metals and compounds being included in future CRMs. Additionally, this could facilitate the development of more robust methods for validating organic compounds, improving the accuracy of contamination assessments and enhancing future method validation efforts.<br><br>
 
 
 ### 🤝 💬 Invitation to Collaborators and Reviewers 💬 🤝
