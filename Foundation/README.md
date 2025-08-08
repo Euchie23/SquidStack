@@ -7,7 +7,7 @@ Illex argentinus, the Argentine shortfin squid, is a crucial species in marine e
 ### Summary
 This project primarily focuses on validating analytical methods used to detect trace metals and organic contaminants in squid tissues. The dashboard displays average recovery rates for trace metals and details the approach taken to validate the detection of organic compounds, acknowledging the complexity of the method and the lack of a specific Certified Reference Material (CRM) for organic compounds in squid tissues. 
 
-![Dashboard Screenshot](https://drive.google.com/file/d/1PD2BbKdcjNXCILbI2lW43rVXJX92xunH/view?usp=share_link)
+![Dashboard Screenshot](https://drive.google.com/file/d/1PD2BbKdcjNXCILbI2lW43rVXJX92xunH/view?usp=sharing)
 
 <br><br>
 
