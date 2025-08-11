@@ -4,7 +4,7 @@
 
 Illex argentinus, the Argentine shortfin squid, is a crucial species in marine ecosystems and fisheries. Its ability to bioaccumulate pollutants makes it a useful bioindicator for assessing marine pollution levels, particularly in regions with high seafood consumption. The dashboard presents our analytical workflow for trace metal analysis and organic compound contamination, which aims to ensure the reliability and accuracy of the analytical methods used in this study.<br>
 
-![Analytical Flowchart](foundation/www/Analytical_flowchart.svg)
+![Analytical Flowchart](https://drive.google.com/uc?export=view&id=1idP1YqYARjYQE_ZcNf9j76xBrNtffhjX)
 *This flowchart outlines the analytical workflow used to validate methods for detecting trace metals and organic contaminants in Illex argentinus. Each step represents a key stage in sample preparation, instrumental analysis, and data quality assessment, including checks against established validity ranges. Deviations—such as higher-than-range results for two metals. Notes and limitations are embedded at key stages to guide interpretation, highlight potential sources of bias, and support informed decision-making during analysis.*
 
 ### Summary
