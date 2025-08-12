@@ -7,7 +7,7 @@ Illex argentinus, the Argentine shortfin squid, is a crucial species in marine e
 <img src="../docs/Analytical_flowchart.svg" alt="Analytical Workflow">
 *This flowchart outlines the analytical workflow used to validate methods for detecting trace metals and organic contaminants in Illex argentinus. Each step represents a key stage in sample preparation, instrumental analysis, and data quality assessment, including checks against established validity ranges. 
 
-Notesℹ️ and limitations⚠️ are embedded at key stages to guide interpretation, highlight potential sources of bias, and support informed decision-making during analysis.*
+*Notesℹ️ and limitations⚠️ are embedded at key stages to guide interpretation, highlight potential sources of bias, and support informed decision-making during analysis.*
 
 ### Summary
 This project primarily focuses on validating analytical methods used to detect trace metals and organic contaminants in squid tissues. The dashboard displays average recovery rates for trace metals and details the approach taken to validate the detection of organic compounds, acknowledging the complexity of the method and the lack of a specific Certified Reference Material (CRM) for organic compounds in squid tissues. 
