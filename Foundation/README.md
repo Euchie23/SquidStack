@@ -7,7 +7,7 @@ Illex argentinus, the Argentine shortfin squid, is a crucial species in marine e
 <img src="../docs/Analytical_flowchart.svg" alt="Analytical Workflow">
 <sub><i>Notesℹ️ and limitations⚠️ are embedded at key stages to guide interpretation, highlight potential sources of bias, and support informed decision-making during analysis.</i></sub><br><br>
 
-This flowchart outlines the analytical workflow used to validate methods for detecting trace metals and organic contaminants in Illex argentinus. Each step represents a key stage in sample preparation, instrumental analysis, and data quality assessment, including checks against established validity ranges. 
+The above flowchart outlines the analytical workflow used to validate methods for detecting trace metals and organic contaminants in Illex argentinus. Each step represents a key stage in sample preparation, instrumental analysis, and data quality assessment, including checks against established validity ranges. 
 
 
 
