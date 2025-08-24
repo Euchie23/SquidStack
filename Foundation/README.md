@@ -32,7 +32,7 @@ This project primarily focuses on validating analytical methods used to detect t
 
 #### Key Insights from Validation:
 - **Trace Metals**: Metals H and J showed unusual recovery rates, indicating potential interference or matrix effects. This is an important observation that calls for further investigation to ensure accurate readings. Since Metal I could not be validated using the current CRM, additional validation through spike recovery or alternative reference materials could be used. <br>
-  ![Metals_Screenshot](https://drive.google.com/uc?export=view&id=1UukZ0GqNkLQphzSanCfvpR)
+  ![Metals_Screenshot](https://drive.google.com/uc?export=view&id=1UukZ0GqNkLQphzSanCfvpR-UdctxS9oG)
   *Note: The screenshot above shows the recovery rate % table for 9 trace metals.* <br><br>
   
 - **Organic Compounds**: Since no CRM exists for these compounds, the proposed modified approach (Feo et al., 2020) could improve validation processes, but further refinement is necessary.<br>
