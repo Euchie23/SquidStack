@@ -14,7 +14,7 @@ The above flowchart outlines the analytical workflow used to validate methods fo
 ### Summary
 This project primarily focuses on validating analytical methods used to detect trace metals and organic contaminants in squid tissues. The dashboard displays average recovery rates for trace metals and details the approach taken to validate the detection of organic compounds, acknowledging the complexity of the method and the lack of a specific Certified Reference Material (CRM) for organic compounds in squid tissues. 
 
-![Dashboard Screenshot](https://drive.google.com/uc?export=view&id=1PD2BbKdcjNXCILbI2lW43rVXJX92xunH)
+![Dashboard Screenshot](https://drive.google.com/uc?export=view&id=1wlEd0oB_0hlqFj3MaKRL7xSZT4bFdS5f)
 *Note: The screenshot above shows a partial view of the dashboard.*
 <br><br>
 
