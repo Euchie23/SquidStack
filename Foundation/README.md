@@ -16,6 +16,7 @@ This project primarily focuses on validating analytical methods used to detect t
 
 ![Dashboard Screenshot](https://drive.google.com/uc?export=view&id=1wlEd0oB_0hlqFj3MaKRL7xSZT4bFdS5f)
 *Note: The screenshot above shows a partial view of the dashboard.*
+[(Click here for dashboard)](Methodology/Metals/Instrumnt_Param.pdf)
 <br><br>
 
 
