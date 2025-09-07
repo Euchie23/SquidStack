@@ -38,13 +38,13 @@ By prioritizing high-quality, transparent data, this work strengthens the eviden
 
 ## Overview 📚🦑
 
-Illex argentinus, the Argentine shortfin squid, is a crucial species in marine ecosystems and fisheries. Its ability to bioaccumulate pollutants makes it a useful bioindicator for assessing marine pollution levels, particularly in regions with high seafood consumption.
-This dashboard presents the analytical workflow and validation protocols used to ensure the accuracy and reliability of contaminant data in Illex argentinus (Argentine shortfin squid). It focuses on validating methods for detecting trace metals using ICP-MS and organic compounds using LC-MS/MS, with recovery rates evaluated against certified reference materials (CRMs). While a standard CRM was used for trace metals, organic compound validation relied on adapted literature-based methods due to the lack of a squid-specific CRM — a challenge acknowledged and addressed within the dashboard.<br>
+*Illex argentinus*, the Argentine shortfin squid, is a crucial species in marine ecosystems and fisheries. Its ability to bioaccumulate pollutants makes it a useful bioindicator for assessing marine pollution levels, particularly in regions with high seafood consumption.
+This dashboard presents the analytical workflow and validation protocols used to ensure the accuracy and reliability of contaminant data in *Illex argentinus* (Argentine shortfin squid). It focuses on validating methods for detecting trace metals using ICP-MS and organic compounds using LC-MS/MS, with recovery rates evaluated against certified reference materials (CRMs). While a standard CRM was used for trace metals, organic compound validation relied on adapted literature-based methods due to the lack of a squid-specific CRM — a challenge acknowledged and addressed within the dashboard.<br>
 
 <img src="../docs/Analytical_flowchart.svg" alt="Analytical Workflow">
 <sub><i>Notesℹ️ and limitations⚠️ are embedded at key stages to guide interpretation, highlight potential sources of bias, and support informed decision-making during analysis.</i></sub><br><br>
 
-The above flowchart outlines the analytical workflow used to validate methods for detecting trace metals and organic contaminants in Illex argentinus. Each stage—sample processing, instrumental analysis, quantification and data preprocessing, and analytical method validation—comprises key steps that together produce two well-structured datasets for statistical analyses. 
+The above flowchart outlines the analytical workflow used to validate methods for detecting trace metals and organic contaminants in *Illex argentinus*. Each stage—sample processing, instrumental analysis, quantification and data preprocessing, and analytical method validation—comprises key steps that together produce two well-structured datasets for statistical analyses. 
 
 
 ![Dashboard Screenshot](https://drive.google.com/uc?export=view&id=1wlEd0oB_0hlqFj3MaKRL7xSZT4bFdS5f)
