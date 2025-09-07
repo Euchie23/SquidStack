@@ -103,7 +103,7 @@ This dashboard was developed in **R Shiny** using the following packages:
 ### 📦 Core Frameworks
 - `shiny` — App framework for interactive dashboards  
 - `bs4Dash` — Bootstrap 4 dashboard theme  
-- `shinydashboard`, `shinyjs`, `shinyWidgets` — UI extensions and interactivity
+- `shinyjs`, `shinyWidgets` — UI extensions and interactivity
 
 ### 📊 Data Manipulation & Wrangling
 - `dplyr`, `tidyr`, `tibble`, `forcats`, `purrr` — Tidyverse tools for data wrangling  
