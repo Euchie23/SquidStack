@@ -1,18 +1,44 @@
 # 🧱 Foundation 🧱📚🦑
 
 ### 📋 Executive Summary
-This dashboard is not about patterns or conclusions—it's about building trust in the data through transparent methods and reproducible validation steps. It presents the analytical method validation efforts that form the backbone of a broader investigation into marine pollution using Illex argentinus as a bioindicator species. <br>
-It focuses on the reliability of data obtained from two instrumental techniques:
-ICP-MS for trace metals
-LC-MS/MS for organic compounds <br>
-Key Findings
-Trace Metals: Most metals showed acceptable recovery rates; however, Metal H and Metal J had elevated values, suggesting possible matrix effects or contamination. Metal I could not be validated due to its absence from the certified reference material (CRM). These findings point to the need for further validation, possibly through spike recovery or alternate CRMs.
-Organic Compounds: In the absence of a compound-specific CRM for squid, a modified literature-based approach was adopted. While effective as a preliminary method, it requires further refinement for consistent application.
-This foundational work is critical for ensuring the accuracy and reproducibility of downstream analyses in future dashboards. It supports broader goals in marine pollution monitoring, seafood safety, and ecotoxicological research, where high-quality, transparent data is essential for policy and decision-making.<br><br>
+
+This dashboard is not about patterns or conclusions — it’s about **building trust in the data** through transparent methods and reproducible validation steps.  
+It presents the **analytical method validation efforts** that form the backbone of a broader investigation into marine pollution, using *Illex argentinus* as a bioindicator species.
+
+It focuses on the reliability of data obtained from two key instrumental techniques:
+
+- **ICP-MS** for trace metals  
+- **LC-MS/MS** for organic compounds  
+
+---
+
+### 🔍 Key Findings
+
+**🧲 Trace Metals**  
+- Most metals showed acceptable recovery rates  
+- **Metal H** and **Metal J** displayed elevated values, suggesting possible matrix effects or contamination  
+- **Metal I** could not be validated due to its absence from the certified reference material (CRM)  
+- Further validation is recommended through **spike recovery** or alternate CRMs  
+
+**💊 Organic Compounds**  
+- Due to the absence of a compound-specific CRM for squid, a **modified literature-based approach** was adopted  
+- The approach is effective as a preliminary method, but requires **further refinement** for consistent use  
+
+---
+
+This foundational work is **critical for ensuring the accuracy and reproducibility** of downstream analyses presented in future dashboards.  
+It also supports broader goals in:
+
+- 🐟 Marine pollution monitoring  
+- 🧫 Seafood safety  
+- ⚖️ Ecotoxicological research and regulation  
+
+By prioritizing high-quality, transparent data, this work strengthens the evidence base for informed **policy, public health, and environmental decision-making**.
+.<br><br>
 
 ## Overview 📚🦑
 
-Illex argentinus, the Argentine shortfin squid, is a crucial species in marine ecosystems and fisheries. Its ability to bioaccumulate pollutants makes it a useful bioindicator for assessing marine pollution levels, particularly in regions with high seafood consumption. <br>
+Illex argentinus, the Argentine shortfin squid, is a crucial species in marine ecosystems and fisheries. Its ability to bioaccumulate pollutants makes it a useful bioindicator for assessing marine pollution levels, particularly in regions with high seafood consumption.
 This dashboard presents the analytical workflow and validation protocols used to ensure the accuracy and reliability of contaminant data in Illex argentinus (Argentine shortfin squid). It focuses on validating methods for detecting trace metals using ICP-MS and organic compounds using LC-MS/MS, with recovery rates evaluated against certified reference materials (CRMs). While a standard CRM was used for trace metals, organic compound validation relied on adapted literature-based methods due to the lack of a squid-specific CRM — a challenge acknowledged and addressed within the dashboard.<br>
 
 <img src="../docs/Analytical_flowchart.svg" alt="Analytical Workflow">
