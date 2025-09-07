@@ -1,4 +1,4 @@
-# 🧭 Exploration Dashboard
+# 🤿 Exploration Dashboard
 
 ## 📋 Executive Summary
 
