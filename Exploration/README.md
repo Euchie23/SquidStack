@@ -31,10 +31,11 @@ Although the results are exploratory and not inferentially conclusive, this tool
 
 ## 🧪 Dataset Schema
 
-The project uses two datasets collected for exploratory data analysis (EDA) in R:
+The project uses two datasets collected for exploratory data analysis (EDA) in R:  
+> 📌 To download: Right-click the link → "Save link as..." → If your browser tries to save it as a `.txt` file, simply rename the extension to `.csv` before saving.
 
-- [`trace_metals.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Exploration/data/trace_metals.csv): Contains measurements of trace metal pollutants <br> *(Right-click and "Save link as..." to download the CSV file)*
-- [`organic_compounds.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Exploration/data/organic_compounds.csv): Contains measurements of organic compound pollutants <br> *(Right-click and "Save link as..." to download the CSV file)*
+- [`trace_metals.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Exploration/data/trace_metals.csv): Contains measurements of trace metal pollutants.
+- [`organic_compounds.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Exploration/data/organic_compounds.csv): Contains measurements of organic compound pollutants.
 
 Both datasets share 14 columns containing metadata such as sample ID, location, date, and biological measurements like length and weight. The remaining columns report analyte concentrations specific to each dataset type.
 
