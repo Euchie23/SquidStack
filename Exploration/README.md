@@ -41,7 +41,7 @@ Both datasets share 14 columns containing metadata such as sample ID, location, 
 > 📝 **Note:**  
 > Columns labeled as `"int"` contain whole numbers, while `"num"` columns contain decimal (real) values. Some concentration columns are `"chr"` (character), indicating values flagged as **below the limit of quantification (BLOQ)**. These BLOQ indicators replace actual measurements. If a concentration column is `"num"`, all values were above the LOQ and are considered detected.
 
->Reminder: Metal and organic compound names (e.g., Metal_A, Organic_B) are anonymized to maintain confidentiality.
+> ⚠️ Reminder: Metal and organic compound names (e.g., Metal_A, Organic_B) are anonymized to maintain confidentiality.
 
 ### 🔁 Shared Columns (1–14)
 
