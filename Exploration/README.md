@@ -33,8 +33,8 @@ Although the results are exploratory and not inferentially conclusive, this tool
 
 The project uses two datasets collected for exploratory data analysis (EDA) in R:
 
-- [`trace_metals.csv`](./data/trace_metals.csv): Contains measurements of trace metal pollutants
-- [`organic_compounds.csv`](./data/organic_compounds.csv): Contains measurements of organic compound pollutants
+- [`trace_metals.csv`](./data/trace_metals.csv): Contains measurements of trace metal pollutants (Right-click and "Save link as..." to download)
+- [`organic_compounds.csv`](./data/organic_compounds.csv): Contains measurements of organic compound pollutants (Right-click and "Save link as..." to download)
 
 Both datasets share 14 columns containing metadata such as sample ID, location, date, and biological measurements like length and weight. The remaining columns report analyte concentrations specific to each dataset type.
 
