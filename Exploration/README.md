@@ -33,42 +33,61 @@ Although the results are exploratory and not inferentially conclusive, this tool
 
 The project uses two datasets collected for exploratory data analysis (EDA) in R:
 
-- `trace_metals.csv`: Contains measurements of trace metal pollutants
-- `organic_compounds.csv`: Contains measurements of organic compound pollutants
+- [`trace_metals.csv`](./data/trace_metals.csv): Contains measurements of trace metal pollutants
+- [`organic_compounds.csv`](./data/organic_compounds.csv): Contains measurements of organic compound pollutants
 
-Both datasets share the same first 15 columns, which include metadata such as sample ID, location, and date. The remaining columns contain concentrations of different analytes specific to each dataset type.
+Both datasets share 14 columns, which include metadata such as ID, length, weight, location, distance and date. The remaining columns contain concentrations of different analytes specific to each dataset type.
+*📝 Note:
+Columns labeled as "int" (integer) contain whole numbers, while "num" (number) columns contain decimal (real) values. Some concentration columns are "chr" (character), indicating that certain values are flagged as below the limit of quantification (BLOQ). In those cases, the reported value is not the true concentration but a BLOQ indicator. If a concentration column is "num", all values were above the LOQ and considered detected.*
 
 ### 🔁 Shared Columns (1–15)
 
 | Column Name       | Data Type | Description                       |
 |-------------------|-----------|-----------------------------------|
-| sample_id         | STRING    | Unique identifier for the sample |
-| location          | STRING    | Sampling location name or code   |
-| latitude          | FLOAT     | Latitude of the sample location  |
-| longitude         | FLOAT     | Longitude of the sample location |
-| date_collected    | DATE      | Date when sample was collected   |
-| depth             | FLOAT     | Depth of sample (if applicable)  |
-| temperature       | FLOAT     | Temperature at collection site   |
-| pH                | FLOAT     | Measured pH of the sample        |
-| ...               | ...       | Additional shared fields         |
+| ID (sample ID)    | chr    | Unique identifier for the sample |
+| Year              | int     | Latitude of the sample location  |
+| ID_num        | int     | Longitude of the sample location |
+| Area   | int      | Date when sample was collected   |
+| Tissue             | chr     | Depth of sample (if applicable)  |
+| Gender
+(0=Females, 1=Males)| int     | Temperature at collection site   |
+| dta_km
+(distance to Argentina in Km)| int     | Measured pH of the sample        |
+|dtfl_km
+(diustance to Falkand Islands in km)| int       | Additional shared fields         |
+| Longitude          | chr     | Temperature at collection site   |
+| Latitude           | chr     | Temperature at collection site   |
+| Month_of_Capture   | int     | Temperature at collection site   |
+| Mantle_length_ mm  | num     | Temperature at collection site   |
+|Wet Weight_g        | num     | Temperature at collection site   |
+| Maturity_level     | int     | Temperature at collection site   |
+
 
 ### 🧲 Trace Metals Dataset (`trace_metals.csv`)
 
 | Column Name     | Data Type | Description                         |
 |-----------------|-----------|-------------------------------------|
-| lead_ppb        | FLOAT     | Lead concentration (ppb)           |
-| arsenic_ppb     | FLOAT     | Arsenic concentration (ppb)        |
-| mercury_ppb     | FLOAT     | Mercury concentration (ppb)        |
-| ...             | ...       | Other trace metal analytes         |
+| DW (Dry Weight) | num       | Sampling location name or code   |
+| Metal_A         | num       | Metal_A concentration (mg/kg)    |
+| Metal_B         | num       | Metal_B concentration (mg/kg)    |
+| Metal_C         | num       | Metal_C concentration (mg/kg)    |
+| Metal_D         | num       | Metal_D concentration (mg/kg)    |
+| Metal_E         | num       | Metal_E concentration (mg/kg)    |
+| Metal_F         | chr       | Metal_F concentration (mg/kg)    |
+| Metal_G         | num       | Metal_G concentration (mg/kg)    |
+| Metal_H         | chr       | Metal_H concentration (mg/kg)    |
+| Metal_I         | chr      | Metal_I concentration (mg/kg)    |
+| Metal_J         | chr       | Metal_J concentration (mg/kg)    |
 
 ### 🌱 Organic Compounds Dataset (`organic_compounds.csv`)
 
 | Column Name       | Data Type | Description                             |
 |-------------------|-----------|-----------------------------------------|
-| benzene_ppb       | FLOAT     | Benzene concentration (ppb)            |
-| toluene_ppb       | FLOAT     | Toluene concentration (ppb)            |
-| xylene_ppb        | FLOAT     | Xylene concentration (ppb)             |
-| ...               | ...       | Other organic compound analytes        |
+| DW (Dry Weight) | num     | Sampling location name or code   |
+| Organic_A       | chr     | Organic_A concentration (mg/kg)            |
+| Organic_B       | chr     | Organic_B concentration (mg/kg)            |
+| Organic_C       | chr     | Organic_C concentration (mg/kg)            |
+| Organic_D       | chr     | Organic_D concentration (mg/kg)            |
 
 
 ## 📊 Analytical Approaches
