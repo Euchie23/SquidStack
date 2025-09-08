@@ -147,7 +147,7 @@ This dashboard is part of a broader marine pollution research project using *Ill
 
 ## 🛠️ Built With
 
-This dashboard was developed in **R Shiny** using the following packages:
+This dashboard was developed in  **R(Version 2023.06.0+421)** using **R Shiny** and the following packages:
 
 ### 📦 Core Frameworks
 - `shiny` — App framework for interactive dashboards  
