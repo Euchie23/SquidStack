@@ -119,15 +119,22 @@ The dashboard is structured across 8 interactive tabs — each representing a st
 
 ---
 
-## 🧠 Key Takeaways
+## 🧠 Potential Insights to Explore
 
-> 🔎 *These insights are exploratory only — not definitive conclusions.*
+> 🔎 *These are exploratory hypotheses based on initial observations or existing literature. The dashboard allows users to investigate patterns interactively — these are not confirmed conclusions.*
 
 - Seasonal and size-based differences may be present across pollutant types  
-- Cluster analysis reveals meaningful groupings by tissue and year  
-- Certain pollutants appear to co-occur, suggesting shared sources or accumulation behavior  
-- Organic compound variability is higher, likely due to matrix effects or validation limitations  
+- Cluster analysis could reveal meaningful groupings by tissue and year  
+- Certain pollutants may appear to co-occur, suggesting shared sources or accumulation behavior  
+- Organic compound variability might be higher, likely due to matrix effects or validation limitations  
 
+> ⚠️ Reminder: Only 7 out of 10 trace metals were validated, and none of the organic pollutants underwent full validation.
+As such, caution is strongly advised when interpreting absolute concentration values, especially for organic compounds.
+For more meaningful insights, consider focusing on relative differences or patterns (e.g., by tissue, season, or location) rather than direct numerical comparisons across analytes.
+
+📎 For more information on this issue, see the [Foundations README](https://Foundation/README.md)
+ or visit the [Dashboard](https://euchie23.shinyapps.io/foundation/)
+ for guided exploration.
 ---
 
 ## 🤝 Invitation to Collaborators
