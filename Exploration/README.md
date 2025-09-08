@@ -130,9 +130,8 @@ The dashboard is structured across 8 interactive tabs — each representing a st
 
 > ⚠️ Reminder: Only 7 out of 10 trace metals were validated, and none of the organic pollutants underwent full validation.
 As such, caution is strongly advised when interpreting absolute concentration values, especially for organic compounds.
-For more meaningful insights, consider focusing on relative differences or patterns (e.g., by tissue, season, or location) rather than direct numerical comparisons across analytes.
-
-📎 For more information on this issue, see the [Foundations README](https://Foundation/README.md)
+For more meaningful insights, consider focusing on relative differences or patterns (e.g., by tissue, season, or location) rather than direct numerical comparisons across analytes. <br>
+> 📎 For more information on this issue, see the [Foundations README](https://github.com/Euchie23/SquidStack/tree/main/Foundation)
  or visit the [Dashboard](https://euchie23.shinyapps.io/foundation/)
  for guided exploration.
 ---
