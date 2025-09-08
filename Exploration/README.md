@@ -23,23 +23,53 @@ Although the results are exploratory and not inferentially conclusive, this tool
 ---
 
 ## 🖼️ Dashboard Preview
+![Dashboard Screenshot](https://drive.google.com/uc?export=view&id=1FWCFLVcbpxVV6sybB56DgOCKAxhsM_xI)
+*Note: The screenshot above shows a partial view of the dashboard.*
+[(Click here for dashboard)](https://euchie23.shinyapps.io/exploration/)
+<br><br>
 
 
-📌 *Screenshot of the dashboard interface*  
- **Insert a screenshot of your main dashboard view here.**  
-Recommended name: `exploration_dashboard_interface.png`
+## 🧪 Dataset Schema
 
-![Dashboard Overview](./README_assets/exploration_dashboard_interface.png)
-📌 Include a visual schematic of the data journey (e.g. diver metaphor or EDA pipeline)
+The project uses two datasets collected for exploratory data analysis (EDA) in R:
 
-## 💾 Datasets and Access
+- `trace_metals.csv`: Contains measurements of trace metal pollutants
+- `organic_compounds.csv`: Contains measurements of organic compound pollutants
 
-- **Trace Metals Dataset** — `321 observations × 27 variables`
-- Recommended name: dataset_schema.png
-![Dataset Schema](./README_assets/dataset_schema.png
-- **Organic Compounds Dataset** — `324 observations × 24 variables`
-Recommended name: dataset_schema.png
-![Dataset Schema](./README_assets/dataset_schema.png
+Both datasets share the same first 15 columns, which include metadata such as sample ID, location, and date. The remaining columns contain concentrations of different analytes specific to each dataset type.
+
+### 🔁 Shared Columns (1–15)
+
+| Column Name       | Data Type | Description                       |
+|-------------------|-----------|-----------------------------------|
+| sample_id         | STRING    | Unique identifier for the sample |
+| location          | STRING    | Sampling location name or code   |
+| latitude          | FLOAT     | Latitude of the sample location  |
+| longitude         | FLOAT     | Longitude of the sample location |
+| date_collected    | DATE      | Date when sample was collected   |
+| depth             | FLOAT     | Depth of sample (if applicable)  |
+| temperature       | FLOAT     | Temperature at collection site   |
+| pH                | FLOAT     | Measured pH of the sample        |
+| ...               | ...       | Additional shared fields         |
+
+### 🧲 Trace Metals Dataset (`trace_metals.csv`)
+
+| Column Name     | Data Type | Description                         |
+|-----------------|-----------|-------------------------------------|
+| lead_ppb        | FLOAT     | Lead concentration (ppb)           |
+| arsenic_ppb     | FLOAT     | Arsenic concentration (ppb)        |
+| mercury_ppb     | FLOAT     | Mercury concentration (ppb)        |
+| ...             | ...       | Other trace metal analytes         |
+
+### 🌱 Organic Compounds Dataset (`organic_compounds.csv`)
+
+| Column Name       | Data Type | Description                             |
+|-------------------|-----------|-----------------------------------------|
+| benzene_ppb       | FLOAT     | Benzene concentration (ppb)            |
+| toluene_ppb       | FLOAT     | Toluene concentration (ppb)            |
+| xylene_ppb        | FLOAT     | Xylene concentration (ppb)             |
+| ...               | ...       | Other organic compound analytes        |
+
 
 ## 📊 Analytical Approaches
 
