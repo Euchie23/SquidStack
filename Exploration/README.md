@@ -94,6 +94,7 @@ Both datasets share 14 columns containing metadata such as sample ID, location, 
 ## 📊 Analytical Approaches
 
 The dashboard is structured across 8 interactive tabs — each representing a stage in the data dive:
+> 📌 To download datasets: Right-click the link → "Save link as..." → If your browser tries to save it as a `.txt` file, simply rename the extension to `.csv` before saving.
 
 | Stage | Tab Title                | Description                                     |Dataset
 |-------|--------------------------|-------------------------------------------------|----------------------------| 
