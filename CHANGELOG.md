@@ -1,9 +1,16 @@
 # 📅 SquidStack Changelog (To record updates in SquidStack repo)
 
+## [September 2025]
+- Added READme for Exploration Dashboard
+- Modifications made to final version of Foundations Dashboard
+- Modifications made to Exploration Dashboard
+- Began working on Fluctuations Dashboard
+
 ## [August 2025]
 - More modifications made to Foundation dashboard Script
-- Deployed Second Version of Foundation Dashboard
+- Deployed Final Version of Foundation Dashboard
 - Working on Exploration Dashboard
+- Deployed Exploration Dasshboard (MVP)
 
 
 ## [July 2025]
@@ -14,4 +21,4 @@
   - Added README file to foundations folder to introduce dashboard
   - Made modifications to SquidStack README
   - Made modifications to Foundation dashboard Script
-  - Deployed Preliminary Foundation Dashboard
+  - Deployed Foundation Dashboard (MVP)
