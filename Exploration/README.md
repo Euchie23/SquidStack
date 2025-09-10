@@ -98,8 +98,8 @@ The dashboard is structured across 8 interactive tabs — each representing a st
 
 | Stage | Tab Title                | Description                                     |Dataset
 |-------|--------------------------|-------------------------------------------------|----------------------------| 
-| 1     | ⛴️ Dockside Briefing     | Intro, roadmap, and dataset context             |[click here for dataset]()|    |
-| 2     | 🐙 Diving In              | Analyte concentration summaries by tissue       |                               |
+| 1     | ⛴️ Dockside Briefing     | Intro, roadmap, and dataset context             |Not Applicable|    |
+| 2     | 🐙 Diving In              | Analyte concentration summaries by tissue       | [`Diving In Organics.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Exploration/data/Org_Diving_In.csv) and [`Diving In Metals.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Exploration/data/Met_Diving_In.csv)                             |
 | 3     | 🧍‍♂️ Buddy Diving         | Sex-based pollutant comparisons                 |                                 |
 | 4     | 📏 Tiddlers among Titans | Size-based bioaccumulation patterns             |                                |
 | 5     | 🌊 Riding the Current     | Year-to-year pollutant flows by tissue          |                               |
