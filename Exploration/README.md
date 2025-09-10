@@ -98,14 +98,14 @@ The dashboard is structured across 8 interactive tabs — each representing a st
 
 | Stage | Tab Title                | Description                                     |Dataset
 |-------|--------------------------|-------------------------------------------------|----------------------------| 
-| 1     | ⛴️ Dockside Briefing     | Intro, roadmap, and dataset context             |Not Applicable|    |
-| 2     | 🐙 Diving In              | Analyte concentration summaries by tissue       | [`Diving In Organics.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Exploration/data/Org_Diving_In.csv) and [`Diving In Metals.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Exploration/data/Met_Diving_In.csv)                             |
-| 3     | 🧍‍♂️ Buddy Diving         | Sex-based pollutant comparisons                 |                                 |
-| 4     | 📏 Tiddlers among Titans | Size-based bioaccumulation patterns             |                                |
-| 5     | 🌊 Riding the Current     | Year-to-year pollutant flows by tissue          |                               |
-| 6     | 📚 Echoes in the Deep     | PCA & K-Means cluster analysis                  |                               |
-| 7     | ⚗️ Shipwrecks and Shadows | Correlation networks (Spearman)                 |                               |
-| 8     | 🧠 Resurfacing            | Summary of patterns and takeaways               |                               |
+| 1     | ⛴️ Dockside Briefing     | Intro, roadmap, and dataset context             |         Not Needed     |
+| 2     | 🐙 Diving In              | Analyte concentration summaries by tissue      | [`Diving In Organics.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Exploration/data/Org_Diving_In.csv) and [`Diving In Metals.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Exploration/data/Met_Diving_in.csv)                   |
+| 3     | 🧍‍♂️ Buddy Diving         | Sex-based pollutant comparisons                  |      [`Buddy Diving.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Exploration/data/Buddy_Diving.csv)                    |
+| 4     | 📏 Tiddlers among Titans | Size-based bioaccumulation patterns             |      [`Tiddlers and Titans.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Exploration/data/Tiddlers_among_Titans.csv)           |
+| 5     | 🌊 Riding the Current     | Year-to-year pollutant flows by tissue          |     [`Riding the Current.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Exploration/data/Riding_the_Current.csv)              |
+| 6     | 📚 Echoes in the Deep     | PCA & K-Means cluster analysis                  |     [`Echoes from the Deep.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Exploration/data/Echoes_from_the_Deep.csv)             |
+| 7     | ⚗️ Shipwrecks and Shadows | Correlation networks (Spearman)                 |     [`Shipwrecks and Shadows.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Exploration/data/Shipwrecks_and_Shadows.csv)           |
+| 8     | 🧠 Resurfacing            | Summary of patterns and takeaways               |          Not Needed         |
 
 ---
 
