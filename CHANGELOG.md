@@ -5,6 +5,8 @@
 - Modifications made to final version of Foundations Dashboard
 - Modifications made to Exploration Dashboard
 - Began working on Fluctuations Dashboard
+- Redeployment of Exploration Dashboard
+- Modifications made to Fluctuations Dashboard
 
 ## [August 2025]
 - More modifications made to Foundation dashboard Script
