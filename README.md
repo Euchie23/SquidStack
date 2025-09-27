@@ -12,7 +12,8 @@ This work translates field and lab research into engaging, modular dashboards th
 
 ## 📦 Repository Overview Each SquidStack module represents a stage in the journey — from setting sail to navigating deep patterns and surfacing human risks. 
 
-| Module | Nickname | Description | Status | Link | |--------|----------|-------------|--------|------| 
+| Module | Nickname | Description | Status | Link | 
+|--------|----------|-------------|--------|------| 
 | 🧱 [**Foundation**](https://euchie23.shinyapps.io/foundation/) | *The Chart Room* 🧭 | Preparing for the journey — study design, lab protocols, and data validation workflows | ✅ Complete | [View README](https://github.com/Euchie23/SquidStack/tree/main/Foundation) | 
 | 🧪 [**Exploration**](https://euchie23.shinyapps.io/exploration/) | *The Deep Dive* 🤿 | Visualizing chemical detections and surfacing early patterns | ✅ Complete | [View README](https://github.com/Euchie23/SquidStack/tree/main/Exploration) | 
 | 📈 **Fluctuation** | *Currents & Tides* 🌊 | Temporal analysis and regression lag modeling based on industrial/agricultural activity | 🔄 In progress | Coming soon | 
