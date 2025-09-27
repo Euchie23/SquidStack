@@ -36,9 +36,9 @@ This work translates field and lab research into engaging, modular dashboards th
 Each module reflects a different set of tools and analytical approaches. Below are the methods **specifically used in this public repository**:
 
 - **Dashboard Development:** R, Shiny, BS4Dash (`All Modules`)
-- **Data Cleaning & Wrangling:** R (tidyverse), Excel, VBA (`All Modules`)
+- **Data Cleaning & Wrangling:** R (tidyverse, `qs` for efficient file I/O), Excel (`All Modules`)
 - **Statistical Analysis:**  
-  - ANOVA, Kruskal-Wallis, Mann-Whitney U, Dunn’s test (`Exploration`)  
+  - ANOVA, Kruskal-Wallis, Mann-Whitney U, Dunn’s test, Tukey HSD (`Exploration`)  
   - Spearman’s correlation (`Exploration`, `Fluctuation`)
 - **Time Series Modeling:**  
   - Regression lag effect modeling to analyze pollutant bioaccumulation delay relative to emissions (`Fluctuation`)
