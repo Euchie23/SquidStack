@@ -100,8 +100,8 @@ Got feedback, ideas, or questions?
 
 ## 🔒 Related Project
 
-- 🔒 [`Squid_Fest`] *(Private Repository)* — The full version-controlled research project including:
-  - In-depth geospatial and temporal modeling
+- 🔒 `Squid_Fest` *(Private Repository)* — The full version-controlled research project including:
+  - Geospatial and temporal modeling
   - Early-stage and experimental modules
   - Complete data pipelines and codebase
 
