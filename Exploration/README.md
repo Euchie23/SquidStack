@@ -171,6 +171,9 @@ This dashboard was developed in  **R(Version 2023.06.0+421)** using **R Shiny** 
 - `ggplot2`, `plotly`, `GGally`, `ggcorrplot`, `ggtext`, `ellipse`, `RColorBrewer` — Data visualization  
 - `knitr`, `kableExtra`, `flextable` — Table rendering and report formatting
 
+### ✨ Custom Features
+- 📚 **Tooltip Citations** — hoverable in-app references for scholarly transparency
+  
 ---
 
 Active development takes place in a **private repository** (`squid_Fest`).  
