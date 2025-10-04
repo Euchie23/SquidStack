@@ -37,8 +37,8 @@ The dashboard uses **four datasets** — two containing simulated biological dat
 
 These contain biological and environmental metadata along with pollutant concentrations.
 
-- [`trace_metals.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Fluctuations/data/trace_metals.csv)  
-- [`organic_compounds.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Fluctuations/data/organic_compounds.csv)
+- [`trace_metals.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Exploration/data/trace_metals.csv)  
+- [`organic_compounds.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Exploration/data/organic_compounds.csv)
 
 These share 14 metadata columns (sample ID, sex, size, tissue, capture location, etc.) and contain pollutant values as either `"num"` or `"chr"` (if BLOQ flagged).
 
