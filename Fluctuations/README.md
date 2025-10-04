@@ -12,7 +12,7 @@ This dashboard is not inferentially conclusive but provides a scalable, interact
 
 ## 🧭 Overview
 
-The Argentine shortfin squid (*Illex argentinus*) serves as a vital bioindicator species in marine pollution studies. Between 2019–2021, simulated data approximating real tissue samples were collected during summer months (Feb–Apr) and analyzed for concentrations of:
+The Argentine shortfin squid (*Illex argentinus*) serves as a vital bioindicator species in marine pollution studies. Between 2019–2021, simulated data approximating real tissue samples were collected during spring months (Feb–Apr) and analyzed for concentrations of:
 
 🧲 **Trace metals** (e.g., cadmium, mercury, copper)  
 💊 **Organic compounds** (e.g., pesticides, industrial chemicals)
@@ -31,9 +31,6 @@ This dashboard draws from the **four datasets** mentioned above. You can find do
 
 > 📌 To download: Right-click the link → "Save link as..."  
 > If your browser tries to save it as a `.txt` file, simply rename the extension to `.csv` before saving.
-
-
-> 📌 To download: Right-click the link → "Save link as..." → If your browser tries to save it as a `.txt` file, simply rename the extension to `.csv` before saving.
 
 ---
 
@@ -214,5 +211,5 @@ We welcome contributions, feedback, or collaboration from:
 - 🌍 ESG professionals focused on ocean health
 
 📬 For questions or access to extended modules, contact **[Euchie](mailto:euchie23@gmail.com)**  
-📇 Or connect via **[LinkedIn](www.linkedin.com/in/euchiejnpierre/)**  
+📇 Or connect via **[LinkedIn](https://www.linkedin.com/in/euchiejnpierre/)**  
 
