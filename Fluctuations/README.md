@@ -27,7 +27,11 @@ These supporting datasets allow users to explore potential **lag effects** — w
 
 ## 🧪 Dataset Schema
 
-The dashboard uses **four datasets** — two containing simulated biological data, and two representing publicly available economic indicators used to explore cross-domain correlations and lag effects.
+This dashboard draws from the **four datasets** mentioned above. You can find downloadable links below for exploration and reproducibility.
+
+> 📌 To download: Right-click the link → "Save link as..."  
+> If your browser tries to save it as a `.txt` file, simply rename the extension to `.csv` before saving.
+
 
 > 📌 To download: Right-click the link → "Save link as..." → If your browser tries to save it as a `.txt` file, simply rename the extension to `.csv` before saving.
 
@@ -35,12 +39,10 @@ The dashboard uses **four datasets** — two containing simulated biological dat
 
 ### 🎣 Marine Pollution Datasets
 
-These contain biological and environmental metadata along with pollutant concentrations.
+These share 14 metadata columns (sample ID, sex, size, tissue, capture location, etc.) and contain pollutant values as either `"num"` or `"chr"` (if BLOQ flagged).
 
 - [`trace_metals.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Exploration/data/trace_metals.csv)  
 - [`organic_compounds.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Exploration/data/organic_compounds.csv)
-
-These share 14 metadata columns (sample ID, sex, size, tissue, capture location, etc.) and contain pollutant values as either `"num"` or `"chr"` (if BLOQ flagged).
 
 ---
 
@@ -131,8 +133,7 @@ Quarterly agricultural GDP index values, inflation-adjusted.
 ---
 
 ## 🖼️ Dashboard Preview
-
-![Dashboard Screenshot](https://drive.google.com/uc?export=view&id=YOUR_SCREENSHOT_IMAGE_ID)
+![Dashboard Screenshot](https://drive.google.com/uc?export=view&id=1dAi2br9mE_u49_kc97j5pyhvW1qevMag)
 *Note: This image shows a cropped view of the full dashboard.*
 
 [🔗 Click here to open the live dashboard](https://euchie23.shinyapps.io/fluctuations/)
