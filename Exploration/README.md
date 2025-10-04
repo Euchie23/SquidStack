@@ -179,4 +179,4 @@ This dashboard was developed in  **R(Version 2023.06.0+421)** using **R Shiny** 
 Active development takes place in a **private repository** (`squid_Fest`).  
 This **public repo** hosts the interactive dashboard and simulated datasets.
 
-📬 For full access to the development history or extended modules, please reach out via **[Email](mailto:euchie23@gmail.com)** or connect on **[LinkedIn](https://www.linkedin.com/)** 😃.
+📬 For full access to the development history or extended modules, please reach out via **[Email](mailto:euchie23@gmail.com)** or connect on **[LinkedIn](https://www.linkedin.com/in/euchiejnpierre/)** 😃.
