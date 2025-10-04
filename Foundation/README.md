@@ -84,8 +84,7 @@ The above flowchart outlines the analytical workflow used to validate methods fo
 
 ## 🛂 Repository Notes
 
-This dashboard is part of a larger marine pollution research project using *Illex argentinus* as a bioindicator of ecological health in the South West Atlantic Ocean. It builds on the foundational work conducted in the **[Foundation](https://github.com/Euchie23/SquidStack/tree/main/Foundation)** and **[Exploration](https://github.com/Euchie23/SquidStack/tree/main/Exploration)** modules.
-
+This dashboard is part of a larger marine pollution research project using *Illex argentinus* as a bioindicator of ecological health in the South West Atlantic Ocean. 
 > 📎 For more background, visit the [SquidStack GitHub Repository](https://github.com/Euchie23/SquidStack)
 
 
