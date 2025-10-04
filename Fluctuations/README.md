@@ -48,10 +48,10 @@ These share 14 metadata columns (sample ID, sex, size, tissue, capture location,
 
 These help users **compare pollution patterns with regional economic activity**.
 
-- [`manufacturing_output.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Fluctuations/data/manufacturing_output.csv)  
+- [`manufacturing_output.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Fluctuations/Data/manufacturing_output.csv)  
 Contains quarterly manufacturing output estimates by country from 2018 to 2023.
 
-- [`agri_GDP.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Fluctuations/data/agri_GDP.csv)  
+- [`agri_GDP.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Fluctuations/Data/agri_GDP.csv)  
 Reports agriculture’s contribution to GDP by quarter over time.
 
 ---
