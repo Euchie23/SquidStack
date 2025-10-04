@@ -33,6 +33,29 @@ The dashboard uses **four datasets** — two containing simulated biological dat
 
 ---
 
+### 🎣 Marine Pollution Datasets
+
+These contain biological and environmental metadata along with pollutant concentrations.
+
+- [`trace_metals.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Fluctuations/data/trace_metals.csv)  
+- [`organic_compounds.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Fluctuations/data/organic_compounds.csv)
+
+These share 14 metadata columns (sample ID, sex, size, tissue, capture location, etc.) and contain pollutant values as either `"num"` or `"chr"` (if BLOQ flagged).
+
+---
+
+### 📈 Supporting Industrial Activity Datasets
+
+These help users **compare pollution patterns with regional economic activity**.
+
+- [`manufacturing_output.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Fluctuations/data/manufacturing_output.csv)  
+Contains quarterly manufacturing output estimates by country from 2018 to 2023.
+
+- [`agri_GDP.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Fluctuations/data/agri_GDP.csv)  
+Reports agriculture’s contribution to GDP by quarter over time.
+
+---
+
 ### 🐙 1. Trace Metals Dataset (`trace_metals.csv`)
 
 Simulated concentrations of trace metal pollutants in squid tissues.
@@ -76,15 +99,13 @@ Year-on-year monthly % change in manufacturing output for 3 SWAO-bordering count
 
 | Column Name   | Type | Description |
 |---------------|------|-------------|
+| Month         | int  | Month of % change |
 | Country       | chr  | Argentina, Brazil, or Uruguay |
-| Date          | date | First day of month (e.g., 2018-11-01) |
-| Year          | int  | Year component of date |
-| Month         | int  | Month component of date |
-| YoY_Change    | num  | % change in manufacturing output compared to same month previous year |
+| Year          | int  | Year of % change |
+| YoY_%_Change  | num  | % change in manufacturing output compared to same month previous year |
 
 > 📆 Coverage: Nov 2018 – Dec 2021  
-> 📍 Source: National Statistics Institutes (processed and cleaned from public repositories)
-
+> 📍 Source: Trading Economics Website
 ---
 
 ### 🌾 4. Agricultural GDP Dataset (`agri_gdp.csv`)
@@ -93,14 +114,12 @@ Quarterly agricultural GDP index values, inflation-adjusted.
 
 | Column Name   | Type | Description |
 |---------------|------|-------------|
+| Quarter       | chr  | Reporting quarter (e.g.,2018_Oct-Dec) |
 | Country       | chr  | Argentina, Brazil, or Uruguay |
-| Quarter       | chr  | Reporting quarter (e.g., Q4-2018) |
-| Year          | int  | Calendar year |
-| Quarter_Num   | int  | 1–4 |
-| Agri_GDP_Index| num  | Inflation-adjusted index (base normalized to consistent starting point) |
+| GDP           | num  | Inflation-adjusted index (using index values starting at 100 in the last quarter of 2018) |
 
 > 📆 Coverage: Q4 2018 – Q1 2022  
-> 📍 Source: OECD & National Central Banks
+> 📍 Source: Trading Economics Website
 
 ---
 
@@ -109,6 +128,7 @@ Quarterly agricultural GDP index values, inflation-adjusted.
 > The biological datasets (`trace_metals.csv` and `organic_compounds.csv`) are **simulated** to protect sensitive research data. Values are anonymized or modified but structurally mimic real-world observations.  
 > The economic datasets are **publicly sourced** and lightly processed for time alignment with biological sampling periods.
 
+---
 
 ## 🖼️ Dashboard Preview
 
@@ -117,39 +137,7 @@ Quarterly agricultural GDP index values, inflation-adjusted.
 
 [🔗 Click here to open the live dashboard](https://euchie23.shinyapps.io/fluctuations/)
 
-## 🧪 Dataset Schema
-
-This dashboard integrates **four main datasets** — two pollutant datasets and two contextual economic datasets to support lag effect analysis.
-
-> 📌 To download: Right-click the links → “Save link as…”  
-> If your browser saves the file as `.txt`, rename it to `.csv` after download.
-
 ---
-
-### 🎣 Marine Pollution Datasets
-
-These contain biological and environmental metadata along with pollutant concentrations.
-
-- [`trace_metals.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Fluctuations/data/trace_metals.csv)  
-- [`organic_compounds.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Fluctuations/data/organic_compounds.csv)
-
-These share 14 metadata columns (sample ID, sex, size, tissue, capture location, etc.) and contain pollutant values as either `"num"` or `"chr"` (if BLOQ flagged).
-
----
-
-### 📈 Supporting Industrial Activity Datasets
-
-These help users **compare pollution patterns with regional economic activity**.
-
-- [`manufacturing_output.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Fluctuations/data/manufacturing_output.csv)  
-Contains quarterly manufacturing output estimates by country from 2018 to 2023.
-
-- [`agri_GDP.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Fluctuations/data/agri_GDP.csv)  
-Reports agriculture’s contribution to GDP by quarter over time.
-
-These datasets are primarily used to investigate **lag effects** between industrial emissions (cause) and bioaccumulated pollutants in squid (effect).
-
-> 💡 A lag effect means there’s a **delay** between an environmental pressure (e.g., spike in manufacturing) and its biological impact (e.g., contaminant uptake in squid).
 
 ## 🧠 Dashboard Highlights
 
