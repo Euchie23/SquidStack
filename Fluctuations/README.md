@@ -12,15 +12,103 @@ This dashboard is not inferentially conclusive but provides a scalable, interact
 
 ## 🧭 Overview
 
-The **Argentine shortfin squid (*Illex argentinus*)** serves as a vital bioindicator species in marine pollution studies. Between 2019–2021, simulated data approximating real tissue samples were collected during summer months (Feb–Apr) and analyzed for concentrations of:
+The Argentine shortfin squid (*Illex argentinus*) serves as a vital bioindicator species in marine pollution studies. Between 2019–2021, simulated data approximating real tissue samples were collected during summer months (Feb–Apr) and analyzed for concentrations of:
 
-- 🧲 **Trace metals** (e.g., cadmium, mercury, copper)
-- 💊 **Organic compounds** (e.g., pesticides, industrial chemicals)
+🧲 **Trace metals** (e.g., cadmium, mercury, copper)  
+💊 **Organic compounds** (e.g., pesticides, industrial chemicals)
 
-This dashboard links **pollutant concentrations** to **economic activity metrics** to allow exploration of potential **lag effects** — when contaminants enter marine food webs **months after** spikes in industrial activity.
+This dashboard introduces a unique integration of environmental and economic data. Alongside pollutant concentrations, it incorporates:
 
-⚠️ **Data Disclaimer:**  
-To comply with research confidentiality protocols, all datasets in this dashboard are **simulated approximations** of original research data. Names, units, and categories have been anonymized, though the overall structure reflects real data collected and analyzed at National Taiwan University.
+- 📉 **Manufacturing Output (% change YoY)** for Argentina, Brazil, and Uruguay (monthly; late 2018–2021)
+- 🌾 **Agricultural GDP (Inflation-adjusted Index)** for Argentina, Brazil, and Uruguay — capturing quarterly shifts in agro-industrial activity (Q4 2018–Q1 2022)
+
+These supporting datasets allow users to explore potential **lag effects** — where spikes in industrial or agricultural activity may result in delayed pollutant accumulation in marine organisms like squid.
+
+
+## 🧪 Dataset Schema
+
+The dashboard uses **four datasets** — two containing simulated biological data, and two representing publicly available economic indicators used to explore cross-domain correlations and lag effects.
+
+> 📌 To download: Right-click the link → "Save link as..." → If your browser tries to save it as a `.txt` file, simply rename the extension to `.csv` before saving.
+
+---
+
+### 🐙 1. Trace Metals Dataset (`trace_metals.csv`)
+
+Simulated concentrations of trace metal pollutants in squid tissues.
+
+| Column Name         | Type | Description |
+|---------------------|------|-------------|
+| ID                  | chr  | Unique identifier for each sample |
+| Year                | int  | Sampling year (2019–2021) |
+| ID_num              | int  | Lab-generated numeric sample ID |
+| Area                | int  | Capture area number |
+| Tissue              | chr  | Tissue type analyzed (e.g., mantle, digestive gland) |
+| Gender              | int  | 0 = Female, 1 = Male |
+| dta_km              | int  | Distance (km) to Argentina shoreline |
+| dtfl_km             | int  | Distance (km) to Falkland Islands |
+| Longitude           | chr  | Longitude in DMS format |
+| Latitude            | chr  | Latitude in DMS format |
+| Month_of_Capture    | int  | Month the sample was caught |
+| Mantle_length_mm    | num  | Squid mantle length (mm) |
+| Wet_Weight_g        | num  | Squid weight before dissection (grams) |
+| Maturity_level      | int  | Maturity stage (per Arkhipkin et al., 1992) |
+| DW (Dry Weight)     | num  | Dry weight of tissue used for analysis |
+| Metal_A to Metal_J  | num/chr | Simulated metal concentrations (mg/kg), some BLOQ values stored as character strings |
+
+---
+
+### 💊 2. Organic Compounds Dataset (`organic_compounds.csv`)
+
+Simulated organic pollutant data from squid tissues.
+
+| Column Name         | Type | Description |
+|---------------------|------|-------------|
+| (Same first 14 columns as `trace_metals.csv`) |
+| DW (Dry Weight)     | num  | Dry weight of extracted tissue |
+| Organic_A to Organic_D | chr | Simulated organic compound concentrations (mg/kg); some values BLOQ |
+
+---
+
+### 🏭 3. Manufacturing Output Dataset (`manufacturing_output.csv`)
+
+Year-on-year monthly % change in manufacturing output for 3 SWAO-bordering countries.
+
+| Column Name   | Type | Description |
+|---------------|------|-------------|
+| Country       | chr  | Argentina, Brazil, or Uruguay |
+| Date          | date | First day of month (e.g., 2018-11-01) |
+| Year          | int  | Year component of date |
+| Month         | int  | Month component of date |
+| YoY_Change    | num  | % change in manufacturing output compared to same month previous year |
+
+> 📆 Coverage: Nov 2018 – Dec 2021  
+> 📍 Source: National Statistics Institutes (processed and cleaned from public repositories)
+
+---
+
+### 🌾 4. Agricultural GDP Dataset (`agri_gdp.csv`)
+
+Quarterly agricultural GDP index values, inflation-adjusted.
+
+| Column Name   | Type | Description |
+|---------------|------|-------------|
+| Country       | chr  | Argentina, Brazil, or Uruguay |
+| Quarter       | chr  | Reporting quarter (e.g., Q4-2018) |
+| Year          | int  | Calendar year |
+| Quarter_Num   | int  | 1–4 |
+| Agri_GDP_Index| num  | Inflation-adjusted index (base normalized to consistent starting point) |
+
+> 📆 Coverage: Q4 2018 – Q1 2022  
+> 📍 Source: OECD & National Central Banks
+
+---
+
+### ⚠️ Data Confidentiality Notice
+
+> The biological datasets (`trace_metals.csv` and `organic_compounds.csv`) are **simulated** to protect sensitive research data. Values are anonymized or modified but structurally mimic real-world observations.  
+> The economic datasets are **publicly sourced** and lightly processed for time alignment with biological sampling periods.
+
 
 ## 🖼️ Dashboard Preview
 
