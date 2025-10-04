@@ -80,8 +80,24 @@ The above flowchart outlines the analytical workflow used to validate methods fo
 
 - **Future Data Collection**: While the dashboard primarily focuses on method validation, future data collection should prioritize the inclusion of metals not included in current CRMs (such as Metal I), and organic compounds, which currently lack specific CRMs. Expanding the dataset to assess these factors across different tissues and years could increase the chances of these metals and compounds being included in future CRMs. Additionally, this could facilitate the development of more robust methods for validating organic compounds, improving the accuracy of contamination assessments and enhancing future method validation efforts.<br><br>
 
+---
 
-### 🤝 💬 Invitation to Collaborators and Reviewers 💬 🤝
+## 🛂 Repository Notes
 
-We welcome contributions to refine methodologies, expand contaminant scopes, and integrate ecological or socioeconomic analyses to deepen understanding and impact. <br>
-🛂<a href="https://github.com/Euchie23/SquidStack/" target="_blank">SquidStack</a>  hosts the public-facing dashboards only. Active development and version control take place in a private repository (Squid_fest) to allow for faster iteration and maintainability. The private repo (squid_Fest) includes additional modules and in-progress work that may not yet be stable or documented, so if you would like access to the development history or full codebase please dont hesitate to contact me 🙂. 🛂.
+This dashboard is part of a larger marine pollution research project using *Illex argentinus* as a bioindicator of ecological health in the South West Atlantic Ocean. It builds on the foundational work conducted in the **[Foundation](https://github.com/Euchie23/SquidStack/tree/main/Foundation)** and **[Exploration](https://github.com/Euchie23/SquidStack/tree/main/Exploration)** modules.
+
+> 📎 For more background, visit the [SquidStack GitHub Repository](https://github.com/Euchie23/SquidStack)
+
+
+## 🤝 Invitation to Collaborators
+
+We welcome contributions, feedback, or collaboration from:
+
+- 🌊 Marine biologists & environmental scientists
+- 🧪 Ecotoxicologists & pollution analysts
+- 🧑‍💻 Shiny developers & R data scientists
+- 🏛️ Institutions studying seafood safety or policy impacts
+- 🌍 ESG professionals focused on ocean health
+
+📬 For questions or access to extended modules, contact **[Euchie](mailto:euchie23@gmail.com)**  
+📇 Or connect via **[LinkedIn](https://www.linkedin.com/in/euchiejnpierre/)**  
