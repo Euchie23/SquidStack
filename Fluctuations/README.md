@@ -214,5 +214,5 @@ We welcome contributions, feedback, or collaboration from:
 - 🌍 ESG professionals focused on ocean health
 
 📬 For questions or access to extended modules, contact **[Euchie](mailto:euchie23@gmail.com)**  
-📇 Or connect via **[LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN)**  
+📇 Or connect via **[LinkedIn](www.linkedin.com/in/euchiejnpierre)**  
 
