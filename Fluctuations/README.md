@@ -24,6 +24,7 @@ This dashboard introduces a unique integration of environmental and economic dat
 
 These supporting datasets allow users to explore potential **lag effects** — where spikes in industrial or agricultural activity may result in delayed pollutant accumulation in marine organisms like squid.
 
+---
 
 ## 🧪 Dataset Schema
 
@@ -43,7 +44,7 @@ These share 14 metadata columns (sample ID, sex, size, tissue, capture location,
 
 To investigate potential lag effects between pollutant emissions and pollutant accumulation in squid tissues, trace metal and organic compound data were merged into a single long-format dataset. This transformation supports pollutant-level modeling and time-aligned comparisons with external drivers
 
-- [`trace_metals.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Exploration/data/temp_fluct.csv)
+- [`Long-Format.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Exploration/data/temp_fluct.csv)
   
 ---
 
@@ -94,6 +95,7 @@ Simulated organic pollutant data from squid tissues.
 | DW (Dry Weight)     | num  | Dry weight of extracted tissue |
 | Organic_A to Organic_D | chr | Simulated organic compound concentrations (mg/kg); some values BLOQ |
 
+---
 
 ### 🧪 3. Long-Format Dataset (`Long_format.csv`)
 
