@@ -35,12 +35,14 @@ This dashboard draws from the **four datasets** mentioned above. You can find do
 
 ---
 
-### 🎣 Marine Pollution Datasets
+### 🎣 Temporal Fluctuations Datasets
 
 These share 14 metadata columns (sample ID, sex, size, tissue, capture location, etc.) and contain pollutant values as either `"num"` or `"chr"` (if BLOQ flagged).
 
 - [`trace_metals.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Exploration/data/trace_metals.csv)  
 - [`organic_compounds.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Exploration/data/organic_compounds.csv)
+
+### 🧪 Temporal Lag Effects Dataset
 
 To investigate potential lag effects between pollutant emissions and pollutant accumulation in squid tissues, trace metal and organic compound data were merged into a single long-format dataset. This transformation supports pollutant-level modeling and time-aligned comparisons with external drivers
 
