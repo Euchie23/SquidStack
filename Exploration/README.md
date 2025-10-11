@@ -103,7 +103,7 @@ The dashboard is structured across 8 interactive tabs — each representing a st
 | 3     | 🧍‍♂️ Buddy Diving         | Sex-based pollutant comparisons                  |      [`Long_Dataset.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Exploration/data/Long_Dataset.csv)                    |
 | 4     | 📏 Tiddlers among Titans | Size-based bioaccumulation patterns             |      `Long_Dataset.csv`           |
 | 5     | 🌊 Riding the Current     | Year-to-year pollutant flows by tissue          |     `Long_Dataset.csv`              |
-| 6     | 📚 Echoes in the Deep     | PCA & K-Means cluster analysis                  |     [`Wide_Datatset.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Exploration/data/Wide_Datatset.csv)             |
+| 6     | 📚 Echoes in the Deep     | PCA & K-Means cluster analysis                  |     [`Wide_Dataset.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Exploration/data/Wide_Dataset.csv)             |
 | 7     | ⚗️ Shipwrecks and Shadows | Correlation networks (Spearman)                 |     `Long_Dataset.csv`          |
 | 8     | 🧠 Resurfacing            | Summary of patterns and takeaways               |          Not Needed         |
 
