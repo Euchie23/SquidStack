@@ -44,7 +44,7 @@ These share 14 metadata columns (sample ID, sex, size, tissue, capture location,
 
 To investigate potential lag effects between pollutant emissions and pollutant accumulation in squid tissues, trace metal and organic compound data were merged into a single long-format dataset. This transformation supports pollutant-level modeling and time-aligned comparisons with external drivers
 
-- [`Long-Format.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Fluctuations/data/temp_fluct.csv)
+- [`Long-Format.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Fluctuations/Data/temp_fluct.csv)
   
 ---
 
