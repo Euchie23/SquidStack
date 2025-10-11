@@ -41,6 +41,10 @@ These share 14 metadata columns (sample ID, sex, size, tissue, capture location,
 - [`trace_metals.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Exploration/data/trace_metals.csv)  
 - [`organic_compounds.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Exploration/data/organic_compounds.csv)
 
+To investigate potential lag effects between pollutant emissions and pollutant accumulation in squid tissues, trace metal and organic compound data were merged into a single long-format dataset. This transformation supports pollutant-level modeling and time-aligned comparisons with external drivers
+
+- [`trace_metals.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Exploration/data/temp_fluct.csv)
+  
 ---
 
 ### 📈 Supporting Industrial Activity Datasets
@@ -89,6 +93,31 @@ Simulated organic pollutant data from squid tissues.
 | (Same first 14 columns as `trace_metals.csv`) |
 | DW (Dry Weight)     | num  | Dry weight of extracted tissue |
 | Organic_A to Organic_D | chr | Simulated organic compound concentrations (mg/kg); some values BLOQ |
+
+
+### 🧪 3. Long-Format Dataset (`Long_format.csv`)
+
+Long-format dataset used for analyzing time lags between environmental emissions and bioaccumulated pollutant levels in squid.
+
+| Column Name         | Type  | Description                                                                 |
+|---------------------|-------|-----------------------------------------------------------------------------|
+| ID                  | chr   | Unique identifier for each sample-tissue combination (e.g., "49_14_muscle") |
+| Year                | int   | Year of sample collection (2019–2021)                                       |
+| Gender              | int   | 0 = Female, 1 = Male                                                        |
+| dta_km              | int   | Distance (km) to Argentina shoreline                                        |
+| dtfl_km             | int   | Distance (km) to Falkland Islands                                           |
+| Longitude           | chr   | Longitude in DMS format                                                     |
+| Latitude            | chr   | Latitude in DMS format                                                      |
+| Month_of_Capture    | int   | Month sample was captured                                                   |
+| Mantle_length_mm    | num   | Squid mantle length (mm)                                                    |
+| Wet_Weight_g        | num   | Squid weight before dissection (g)                                          |
+| Maturity_level      | int   | Maturity stage (per Arkhipkin et al., 1992)                                 |
+| size                | chr   | Size class bin (e.g., "small (181 mm – 237.3 mm)")                          |
+| Tissue              | chr   | Tissue type (e.g., muscle, digestive gland)                                 |
+| pollutant           | chr   | Pollutant name (e.g., Metal_A, Organic_B)                                   |
+| concentration       | num   | Measured concentration (mg/kg); BLOQ values handled separately              |
+| status              | chr   | Indicates whether value was "Detected", "BLOQ", or "BLOD"                   |
+| outlier             | chr   | "yes" or "no" flag based on outlier detection                               |
 
 ---
 
