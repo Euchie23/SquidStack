@@ -1,5 +1,20 @@
 # 🌊 Fluctuations Dashboard
 
+## 📈 Real-World Value
+
+The Fluctuations dashboard connects **marine contamination trends** with **industrial and agricultural activity** — showing how human economic output may influence pollutant levels in marine species.
+
+### Who This Helps
+- **Regulators:** understand timing between emissions and ecosystem impact  
+- **Environmental consultancies:** assess potential pollutant drivers for reports  
+- **Fisheries & marine managers:** anticipate ecosystem stress during industrial surges  
+- **ESG & risk teams:** integrate temporal pollution signals into sustainability metrics  
+
+### Why It Matters
+By revealing **year-to-year changes** and **possible lag effects**, this dashboard provides early warnings of ecosystem pressure — supporting proactive, data-driven environmental management.
+
+---
+
 ## 📋 Executive Summary
 
 The **Fluctuations Dashboard** extends the *Illex argentinus* marine pollution investigation by shifting focus from static comparisons to **temporal patterns** — especially in relation to industrial emissions. This module explores how pollution fluctuates **over time** and how **lag effects** between emission and bioaccumulation might emerge.
