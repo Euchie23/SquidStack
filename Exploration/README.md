@@ -1,5 +1,21 @@
 # 🤿 Exploration Dashboard
 
+## 🌍 Real-World Value
+
+The Exploration dashboard transforms raw marine chemistry data into **actionable environmental insights**.  
+It helps users quickly spot patterns in contamination across tissues, seasons, and biological traits — informing early decisions before formal modeling.
+
+### Who This Helps
+- **Environmental agencies:** identify potential pollution hotspots or emerging contaminants  
+- **Fisheries managers:** monitor tissue-specific bioaccumulation patterns  
+- **Food safety teams:** flag risk-relevant pollutants for deeper testing  
+- **ESG & sustainability analysts:** track ecological indicators for reporting  
+
+### Why It Matters
+This module highlights **where and when pollution patterns change**, so organizations can prioritize sampling, regulation, and monitoring efforts based on evidence — not guesswork.
+
+---
+
 ## 📋 Executive Summary
 
 This dashboard continues the investigation into marine pollution in *Illex argentinus* by transitioning from method validation (Foundation Module) to exploratory data analysis. It focuses on uncovering patterns in contaminant concentrations across tissues, years, and biological traits — while maintaining transparency about data limitations and simulation use.
