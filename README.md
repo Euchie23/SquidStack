@@ -1,5 +1,21 @@
 # 🦑📚 SquidStack — Interactive Dashboards for Marine Pollution & Risk Analysis
 
+## 🌍 Real-World Value
+
+SquidStack turns multi-year lab and field research into **actionable marine pollution intelligence**.  
+These dashboards help organizations quickly understand contamination patterns, ecological risks, and seafood safety concerns in the Southwest Atlantic Ocean.
+
+### Who This Helps
+- **Environmental agencies:** Identify pollution hotspots & track industrial impacts  
+- **Fisheries managers:** Assess bioaccumulation trends affecting stock health  
+- **Food safety & public health teams:** Estimate exposure risks (EDI/HQ)  
+- **ESG & sustainability groups:** Monitor marine contamination indicators for reporting  
+
+### Why It Matters
+SquidStack bridges scientific data and real-world decision-making—providing clear, interactive tools that support monitoring, regulation, and communication around ocean health.
+
+---
+
 ## Overview 📚🃏
 
 **SquidStack** is a collection of interactive dashboards built from my master's thesis at **National Taiwan University (2021–2024)**, which investigated chemical contamination in *Illex argentinus* (Argentine shortfin squid) in the Southwest Atlantic Ocean.
