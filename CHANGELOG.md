@@ -1,4 +1,9 @@
 # 📅 SquidStack Changelog (To record updates in SquidStack repo)
+
+
+## [November 2025]
+- More modifications made to Risk-Evaluation Dashboard
+
 ## [October 2025]
 - Added READme for Fluctuations Dashboard
 - Redeployment of Fluctuations Dashboard
