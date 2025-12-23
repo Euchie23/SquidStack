@@ -1,5 +1,15 @@
 # 🌊 Fluctuations Dashboard
 
+## 📋 Executive Summary
+
+The **Fluctuations Dashboard** extends the *Illex argentinus* marine pollution investigation by shifting focus from static comparisons to **temporal patterns** — especially in relation to industrial emissions. This module explores how pollution fluctuates **over time** and how **lag effects** between emission and bioaccumulation might emerge.
+
+Using **simulated datasets** modeled after real marine data (with all sensitive information anonymized), this dashboard pairs pollutant concentration data with economic activity indicators (e.g., manufacturing output, agricultural GDP) to help users explore possible cause–effect relationships.
+
+This dashboard is not inferentially conclusive but provides a scalable, interactive tool for exploring marine contamination trends in the Southwest Atlantic Ocean using **R Shiny**.
+
+---
+
 ## 📈 Real-World Value
 
 The Fluctuations dashboard connects **marine contamination trends** with **industrial and agricultural activity** — showing how human economic output may influence pollutant levels in marine species.
@@ -15,13 +25,30 @@ By revealing **year-to-year changes** and **possible lag effects**, this dashboa
 
 ---
 
-## 📋 Executive Summary
+🎯 Applied Use Cases
 
-The **Fluctuations Dashboard** extends the *Illex argentinus* marine pollution investigation by shifting focus from static comparisons to **temporal patterns** — especially in relation to industrial emissions. This module explores how pollution fluctuates **over time** and how **lag effects** between emission and bioaccumulation might emerge.
+The Fluctuations Dashboard is designed for exploratory, decision-support use — not definitive attribution — helping stakeholders understand *when* and *how* marine contamination may respond to human activity.
 
-Using **simulated datasets** modeled after real marine data (with all sensitive information anonymized), this dashboard pairs pollutant concentration data with economic activity indicators (e.g., manufacturing output, agricultural GDP) to help users explore possible cause–effect relationships.
+**Example Use Cases:**
 
-This dashboard is not inferentially conclusive but provides a scalable, interactive tool for exploring marine contamination trends in the Southwest Atlantic Ocean using **R Shiny**.
+**1. Regulatory Timing & Monitoring**
+Environmental regulators can explore whether increases in manufacturing or agricultural activity are followed by delayed increases in pollutant concentrations in squid tissues.  
+This helps identify *critical monitoring windows* where sampling intensity should be increased.
+
+**2. Environmental Consulting & Impact Scoping**
+Consultancies can use the dashboard during early-stage environmental assessments to:
+- Identify pollutants with rising temporal trends  
+- Explore plausible lag structures between emissions and bioaccumulation  
+- Prioritize compounds or regions for deeper investigation  
+
+**3. Fisheries & Ecosystem Risk Awareness**
+Fisheries managers can monitor pollution fluctuations alongside biological indicators to anticipate periods of elevated ecosystem stress — especially during industrial surges that may coincide with fishing seasons.
+
+**4. ESG & Sustainability Reporting**
+ESG teams can integrate temporal pollution signals into sustainability narratives, helping organizations contextualize environmental risk trends rather than relying on static pollution snapshots.
+
+⚠️ **Important Note:**  
+Observed temporal alignment or lagged patterns do not imply causation. The dashboard is intended as a *hypothesis-generating and risk-screening tool*, supporting informed follow-up analysis.
 
 ---
 
@@ -261,3 +288,6 @@ We welcome contributions, feedback, or collaboration from:
 📬 For questions or access to extended modules, contact **[Euchie](mailto:euchie23@gmail.com)**  
 📇 Or connect via **[LinkedIn](https://www.linkedin.com/in/euchiejnpierre/)**  
 
+> 🦑 *Module 2 of the [SquidStack](https://github.com/Euchie23/SquidStack) series —  focused on marine Pollution, industrial emissions assessments & risk analysis.* <br>
+> 📌 This module is the next stage in our data journey from the [**Exploration Dashboard**](https://github.com/Euchie23/SquidStack/edit/main/Exploration/README.md).<br>
+[Click here for App](https://euchie23.shinyapps.io/exploration/)
