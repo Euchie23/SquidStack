@@ -1,6 +1,6 @@
 # 🧱 Foundation 🧱📚🦑 
 
-## 📋 Executive Summary
+## 📋 Executive Summary 
 
 This dashboard is not about patterns or conclusions, it’s about **building trust in the data** through transparent methods and reproducible validation steps.  
 It presents the **analytical method validation efforts** that form the backbone of a broader investigation into marine pollution, using *Illex argentinus* as a bioindicator species.
