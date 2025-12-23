@@ -288,6 +288,6 @@ We welcome contributions, feedback, or collaboration from:
 📬 For questions or access to extended modules, contact **[Euchie](mailto:euchie23@gmail.com)**  
 📇 Or connect via **[LinkedIn](https://www.linkedin.com/in/euchiejnpierre/)**  
 
-> 🦑 *Module 2 of the [SquidStack](https://github.com/Euchie23/SquidStack) series —  focused on marine Pollution, industrial emissions assessments & risk analysis.* <br>
+> 🦑 *Module 3 of the [SquidStack](https://github.com/Euchie23/SquidStack) series —  focused on marine Pollution, industrial emissions assessments & risk analysis.* <br>
 > 📌 This module is the next stage in our data journey from the [**Exploration Dashboard**](https://github.com/Euchie23/SquidStack/edit/main/Exploration/README.md).
 [Click here for App](https://euchie23.shinyapps.io/exploration/)
