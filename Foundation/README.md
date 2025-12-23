@@ -1,5 +1,31 @@
 # 🧱 Foundation 🧱📚🦑 
 
+## 📋 Executive Summary
+
+This dashboard is not about patterns or conclusions, it’s about **building trust in the data** through transparent methods and reproducible validation steps.  
+It presents the **analytical method validation efforts** that form the backbone of a broader investigation into marine pollution, using *Illex argentinus* as a bioindicator species.
+
+It focuses on the reliability of data obtained from two key instrumental techniques:
+
+- **ICP-MS** for trace metals  
+- **LC-MS/MS** for organic compounds  
+
+---
+
+## 🔍 Key Findings
+
+**🧲 Trace Metals**  
+- Most metals showed acceptable recovery rates  
+- **Metal H** and **Metal J** displayed elevated values, suggesting possible matrix effects or contamination  
+- **Metal I** could not be validated due to its absence from the certified reference material (CRM)  
+- Further validation is recommended through **spike recovery** or alternate CRMs  
+
+**💊 Organic Compounds**  
+- Due to the absence of a compound-specific CRM for squid, a **modified literature-based approach** was adopted  
+- The approach is effective as a preliminary method, but requires **further refinement** for consistent use  
+
+---
+
 ## 📌 Real-World Value
 
 The Foundation module provides the **data validation backbone** of SquidStack.  
@@ -13,32 +39,6 @@ It ensures that all contamination results—from trace metals to organic compoun
 ### Why It Matters
 Reliable environmental decisions start with reliable data.  
 Foundation strengthens trust in the entire pipeline by validating ICP-MS and LC-MS/MS results before any patterns, trends, or risk assessments are made.
-
----
-
-### 📋 Executive Summary
-
-This dashboard is not about patterns or conclusions, it’s about **building trust in the data** through transparent methods and reproducible validation steps.  
-It presents the **analytical method validation efforts** that form the backbone of a broader investigation into marine pollution, using *Illex argentinus* as a bioindicator species.
-
-It focuses on the reliability of data obtained from two key instrumental techniques:
-
-- **ICP-MS** for trace metals  
-- **LC-MS/MS** for organic compounds  
-
----
-
-### 🔍 Key Findings
-
-**🧲 Trace Metals**  
-- Most metals showed acceptable recovery rates  
-- **Metal H** and **Metal J** displayed elevated values, suggesting possible matrix effects or contamination  
-- **Metal I** could not be validated due to its absence from the certified reference material (CRM)  
-- Further validation is recommended through **spike recovery** or alternate CRMs  
-
-**💊 Organic Compounds**  
-- Due to the absence of a compound-specific CRM for squid, a **modified literature-based approach** was adopted  
-- The approach is effective as a preliminary method, but requires **further refinement** for consistent use  
 
 ---
 
@@ -116,3 +116,5 @@ We welcome contributions, feedback, or collaboration from:
 
 📬 For questions or access to extended modules, contact **[Euchie](mailto:euchie23@gmail.com)**  
 📇 Or connect via **[LinkedIn](https://www.linkedin.com/in/euchiejnpierre/)**  
+
+> 🦑 *Module 1 of the [SquidStack](https://github.com/Euchie23/SquidStack) series — focused on marine Pollution, industrial emissions assessments & risk analysis.* 
