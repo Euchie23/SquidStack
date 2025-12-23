@@ -1,5 +1,15 @@
 # 🤿 Exploration Dashboard
 
+## 📋 Executive Summary
+
+This dashboard continues the investigation into marine pollution in *Illex argentinus* by transitioning from method validation (Foundation Module) to exploratory data analysis. It focuses on uncovering patterns in contaminant concentrations across tissues, years, and biological traits — while maintaining transparency about data limitations and simulation use.
+
+Using simulated datasets resembling real observations (to preserve confidentiality), this dashboard applies correlation, dimensionality reduction, clustering, pollutant interaction analysis, and statistical testing to investigate pollutant behavior across 2019–2021.
+
+Although the results are exploratory and not inferentially conclusive, this tool plays a key role in identifying leads for future hypothesis testing and risk assessment, while showcasing scalable analytical workflows in R Shiny.
+
+---
+
 ## 🌍 Real-World Value
 
 The Exploration dashboard transforms raw marine chemistry data into **actionable environmental insights**.  
@@ -16,13 +26,42 @@ This module highlights **where and when pollution patterns change**, so organiza
 
 ---
 
-## 📋 Executive Summary
+🎯 Applied Use Cases
 
-This dashboard continues the investigation into marine pollution in *Illex argentinus* by transitioning from method validation (Foundation Module) to exploratory data analysis. It focuses on uncovering patterns in contaminant concentrations across tissues, years, and biological traits — while maintaining transparency about data limitations and simulation use.
+The Exploration Dashboard is designed for **early-stage environmental insight generation**, helping stakeholders identify where deeper analysis, validation, or intervention may be needed before formal modeling or regulation.
 
-Using simulated datasets resembling real observations (to preserve confidentiality), this dashboard applies correlation, dimensionality reduction, clustering, pollutant interaction analysis, and statistical testing to investigate pollutant behavior across 2019–2021.
+**Example Use Cases:**
 
-Although the results are exploratory and not inferentially conclusive, this tool plays a key role in identifying leads for future hypothesis testing and risk assessment, while showcasing scalable analytical workflows in R Shiny.
+**1. Pollution Signal Screening**
+Environmental agencies can quickly explore which contaminants:
+- Appear consistently elevated across tissues
+- Show unusual patterns across years or seasons
+- Vary strongly by biological traits (size, sex, maturity)
+
+This supports rapid screening before committing resources to confirmatory studies.
+
+**2. Targeted Monitoring & Sampling Design**
+Fisheries and monitoring programs can use observed patterns to:
+- Prioritize specific tissues for routine testing
+- Adjust sampling timing based on seasonal variability
+- Identify species subgroups that may be more vulnerable to bioaccumulation
+
+**3. Food Safety Risk Prioritization**
+Food safety teams can use exploratory summaries to flag compounds that:
+- Concentrate in edible tissues
+- Show increasing trends over time
+- Cluster with other known risk-relevant contaminants
+
+These insights help guide which compounds warrant deeper toxicological assessment.
+
+**4. ESG & Environmental Reporting**
+ESG and sustainability analysts can use the dashboard to:
+- Contextualize contamination signals across time
+- Support narrative reporting on environmental pressure
+- Identify emerging issues without overstating causality
+
+⚠️ **Important Note:**  
+This dashboard is exploratory by design. Patterns observed here are intended to guide hypothesis generation, monitoring priorities, and follow-up analysis — not to support causal inference or regulatory thresholds on their own.
 
 ---
 
