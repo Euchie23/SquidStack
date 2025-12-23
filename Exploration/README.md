@@ -235,3 +235,7 @@ Active development takes place in a **private repository** (`squid_Fest`).
 This **public repo** hosts the interactive dashboard and simulated datasets.
 
 📬 For full access to the development history or extended modules, please reach out via **[Email](mailto:euchie23@gmail.com)** or connect on **[LinkedIn](https://www.linkedin.com/in/euchiejnpierre/)** 😃.
+
+> 🦑 *Module 2 of the [SquidStack](https://github.com/Euchie23/SquidStack) series —  focused on marine Pollution, industrial emissions assessments & risk analysis.* <br>
+> 📌 This module is the next stage in our data journey from the [**Foundation Dashboard**](https://github.com/Euchie23/SquidStack/edit/main/Foundation/README.md).
+[Click here for App](https://euchie23.shinyapps.io/foundation/)
