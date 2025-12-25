@@ -105,7 +105,7 @@ All implemented in **R Shiny** with interactive plots, lag sliders, and tooltips
 - Lag analysis and COVID-19 reprieve observations are **exploratory**.  
 - Focus on **relative patterns** across tissues, years, and pollutants.
 
-> ⚠️ Consultancy framing: This module is designed for **risk screening and early-stage hypothesis generation**, not definitive regulatory assessment.
+> ⚠️ This module is designed for **risk screening and early-stage hypothesis generation**, not definitive regulatory assessment.
 
 ---
 
