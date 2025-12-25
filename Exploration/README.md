@@ -1,4 +1,4 @@
-# 🤿 Exploration Dashboard
+# 🤿 Exploration Dashboard - Data Quality, Bias, and Pattern Discovery
 
 ## 🧭 Problem Framing & Decision Context
 
@@ -152,7 +152,7 @@ We welcome collaboration and feedback from:
 Active development takes place in a **private repository** (`squid_Fest`).  
 This **public repo** hosts the interactive dashboard and simulated datasets.
 
-📬 For full access to the development history or extended modules, please reach out via **[Email](mailto:euchie23@gmail.com)** or connect on **[LinkedIn](https://www.linkedin.com/in/euchiejnpierre/)** 😃.
+📬 For full access to the development history or extended modules, <br> please reach out via **[Email](mailto:euchie23@gmail.com)** or connect on **[LinkedIn](https://www.linkedin.com/in/euchiejnpierre/)** 😃.
 
 ---
 
