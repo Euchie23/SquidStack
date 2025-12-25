@@ -94,6 +94,7 @@ All implemented in **R Shiny** with interactive plots, lag sliders, and tooltips
 - [`agri_GDP.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Fluctuations/Data/agri_gdp.csv)
 
 > ⚠️ Note: Biological datasets are **simulated** to protect confidentiality; economic datasets are publicly sourced.
+> Full column descriptions and data types are in DATA_SCHEMA.md.
 
 ---
 
@@ -141,6 +142,9 @@ We welcome contributions, feedback, or collaboration from:
 - 🧑‍💻 Shiny developers & R data scientists
 - 🏛️ Institutions studying seafood safety or policy impacts
 - 🌍 ESG professionals focused on ocean health
+
+Active development takes place in a **private repository** (`squid_Fest`).  
+This **public repo** hosts the interactive dashboard and simulated datasets.
 
 📬 For questions or access to extended modules, contact **[Euchie](mailto:euchie23@gmail.com)**  
 📇 Or connect via **[LinkedIn](https://www.linkedin.com/in/euchiejnpierre/)**  
