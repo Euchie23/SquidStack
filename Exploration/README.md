@@ -1,4 +1,4 @@
-# 🤿 Exploration Dashboard - Data Quality, Bias, and Pattern Discovery
+# 🤿 Exploration - Exploratory Data Insights for Marine Pollution Risk Assessment
 
 ## 🧭 Problem Framing & Decision Context
 
