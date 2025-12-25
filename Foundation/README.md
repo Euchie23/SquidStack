@@ -164,8 +164,12 @@ We welcome contributions, feedback, or collaboration from:
 - 🧑‍💻 Shiny developers & R data scientists
 - 🏛️ Institutions studying seafood safety or policy impacts
 - 🌍 ESG professionals focused on ocean health
+- 
+Active development takes place in a **private repository** (`squid_Fest`).  
+This **public repo** hosts the interactive dashboard and simulated datasets.
 
-📬 For questions or access to extended modules, contact **[Euchie](mailto:euchie23@gmail.com)**  
-📇 Or connect via **[LinkedIn](https://www.linkedin.com/in/euchiejnpierre/)**  
+📬 For full access to the development history or extended modules, please reach out via **[Email](mailto:euchie23@gmail.com)** or connect on **[LinkedIn](https://www.linkedin.com/in/euchiejnpierre/)** 😃.
+
+---
 
 > 🦑 *Module 1 of the [SquidStack](https://github.com/Euchie23/SquidStack) series — focused on marine Pollution, industrial emissions assessments & risk analysis.* 
