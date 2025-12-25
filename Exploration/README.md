@@ -152,7 +152,8 @@ We welcome collaboration and feedback from:
 Active development takes place in a **private repository** (`squid_Fest`).  
 This **public repo** hosts the interactive dashboard and simulated datasets.
 
-📬 For full access to the development history or extended modules, <br> please reach out via **[Email](mailto:euchie23@gmail.com)** or connect on **[LinkedIn](https://www.linkedin.com/in/euchiejnpierre/)** 😃.
+📬 For questions or access to extended modules, contact **[Euchie](mailto:euchie23@gmail.com)**  
+📇 Or connect via **[LinkedIn](https://www.linkedin.com/in/euchiejnpierre/)**  
 
 ---
 
