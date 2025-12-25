@@ -122,7 +122,7 @@ All implemented in **R Shiny** with interactive plots, lag sliders, and tooltips
 
 - **Module 1 — Foundation:** Exposure data validation  
 - **Module 2 — Exploration:** Cross-sectional exploratory analysis  
-- **Module 3 *(this)* — Fluctuations:** Temporal trends, lag effects, and COVID-19 reprieve hypothesis exploration
+- **Module 3 — Fluctuations:** Temporal trends, lag effects, and COVID-19 reprieve hypothesis exploration *(this)*
 - **Module 4 — Risk Evaluation Module:**  Human and ecological impact translation
 
 ---
