@@ -63,31 +63,6 @@ This module reduces **false confidence risk** by clearly defining where data are
 
 ---
 
-## 🎯 Applied Use Cases
-
-This module is designed to be consulted **before** interpreting contamination levels or deriving risk indicators.
-
-**Example applications:**
-
-### 1️⃣ Regulatory & Audit Review
-Confirm whether analytical outputs meet QA/QC expectations prior to:
-- Compliance screening  
-- Advisory communication  
-- Inter-agency reporting  
-
-### 2️⃣ Seafood Safety & Exposure Modeling
-Determine whether contaminant concentrations are sufficiently validated for:
-- Estimated Daily Intake (EDI)  
-- Hazard Quotient (HQ) calculations  
-
-### 3️⃣ Environmental Consulting & Due Diligence
-Demonstrate defensible analytical pipelines when:
-- Responding to data quality challenges  
-- Justifying uncertainty bounds  
-- Supporting environmental risk narratives  
-
----
-
 ## 🧪 Analytical Workflow (Overview)
 The workflow below summarizes the analytical pipeline from sample processing to validated datasets.  
 Notes and limitations are embedded at each stage to guide interpretation and prevent misuse.
@@ -147,14 +122,6 @@ All subsequent modules rely on the validation boundaries established here.
 
 ---
 
-## 🛂 Repository Context
-
-This dashboard is part of a broader marine pollution research project using *Illex argentinus* as a bioindicator in the South West Atlantic Ocean.
-
-> 📎 Learn more in the main **[SquidStack Repository](https://github.com/Euchie23/SquidStack)**
-
----
-
 ## 🤝 Invitation to Collaborators
 
 We welcome contributions, feedback, or collaboration from:
@@ -164,11 +131,12 @@ We welcome contributions, feedback, or collaboration from:
 - 🧑‍💻 Shiny developers & R data scientists
 - 🏛️ Institutions studying seafood safety or policy impacts
 - 🌍 ESG professionals focused on ocean health
-- 
+  
 Active development takes place in a **private repository** (`squid_Fest`).  
 This **public repo** hosts the interactive dashboard and simulated datasets.
 
-📬 For full access to the development history or extended modules, <br> please reach out via **[Email](mailto:euchie23@gmail.com)** or connect on **[LinkedIn](https://www.linkedin.com/in/euchiejnpierre/)** 😃.
+📬 For questions or access to extended modules, contact **[Euchie](mailto:euchie23@gmail.com)**  
+📇 Or connect via **[LinkedIn](https://www.linkedin.com/in/euchiejnpierre/)**  
 
 ---
 
