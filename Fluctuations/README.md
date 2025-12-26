@@ -94,7 +94,7 @@ All implemented in **R Shiny** with interactive plots, lag sliders, and tooltips
 - [`agri_GDP.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Fluctuations/Data/agri_gdp.csv)
 
 > ⚠️ Note: Biological datasets are **simulated** to protect confidentiality; economic datasets are publicly sourced.
-> Full column descriptions and data types are in DATA_SCHEMA.md.
+> Full column descriptions and data types are in [DATA_SCHEMA.md](https://github.com/Euchie23/SquidStack/blob/main/Fluctuations/Data/DATA_SCHEMA.md).
 
 ---
 
