@@ -79,7 +79,7 @@ Two main datasets drive this dashboard:
 - [`trace_metals.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Exploration/data/trace_metals.csv) – Measurements of trace metal pollutants across tissues and years  
 - [`organic_compounds.csv`](https://raw.githubusercontent.com/Euchie23/SquidStack/main/Exploration/data/organic_compounds.csv) – Measurements of organic compounds  
 
-> Full column descriptions and data types are in [DATA_SCHEMA.md](link).
+> Full column descriptions and data types are in [DATA_SCHEMA.md](https://github.com/Euchie23/SquidStack/blob/main/Exploration/Data/DATA_SCHEMA.md).
 
 ### Workflow Steps
 The dashboard follows a staged exploratory workflow:
