@@ -95,7 +95,9 @@ All components are implemented in **R Shiny**, with reactive logic and user-cont
 
 ## 📊 Dashboard Access
 
-- **Live Dashboard:** *(deployment link pending)*
+- **Preview Screenshot:**  
+![Dashboard Screenshot](https://drive.google.com/uc?export=view&id=1gx1il39MQFfgQkFV0oLrQAhquYcdzPpH)
+- **Live Dashboard:** [Risk Evaluation Dashboard](https://euchie23.shinyapps.io/risk_evaluation/)  
 - **Module Location:** `SquidStack/Risk_Evaluation/`
 
 ---
@@ -166,10 +168,12 @@ We welcome collaboration from:
 - 🏛️ Public health & seafood safety professionals
 - 🌍 ESG and sustainability analysts
 
-Development occurs in a **private working repository** (`squid_Fest`).  
-This public repository hosts **interactive dashboards and simulated datasets**.
+Active development takes place in a **private repository** (`squid_Fest`).  
+This **public repo** hosts the interactive dashboard and simulated datasets.
 
-**Contact:** Euchie — euchie23@gmail.com  
-**LinkedIn:** https://www.linkedin.com/in/euchiejnpierre/
+📬 For questions or access to extended modules, contact **[Euchie](mailto:euchie23@gmail.com)**  
+📇 Or connect via **[LinkedIn](https://www.linkedin.com/in/euchiejnpierre/)**  
 
 > 🦑 *Module 4 of the SquidStack series — translating marine contamination data into actionable human health insight.*
+> 📌 This module is the next stage in our data journey from the [**Fluctuations Dashboard**](https://github.com/Euchie23/SquidStack/edit/main/Fluctuations/).
+[Click here for App](https://euchie23.shinyapps.io/fluctuation/)
