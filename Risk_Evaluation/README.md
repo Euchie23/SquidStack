@@ -106,7 +106,7 @@ All components are implemented in **R Shiny**, with reactive logic and user-cont
 
 ### Biological Data (Simulated)
 
-The Risk Evaluation module primarily utilizes the **long-format analytical dataset originally developed for the Fluctuations dashboard**. This dataset, previously titled **`Long_format.csv`** (see [*Fluctuation Data Schema*](https://github.com/Euchie23/SquidStack/blob/main/Fluctuations/Data/DATA_SCHEMA.md)), was renamed to **`risk_eval`** for use in this application.
+The Risk Evaluation module primarily utilizes the **long-format analytical dataset originally developed for the Fluctuations dashboard**. This dataset, previously titled **`Long-Format Dataset(Long_format.csv)`** (see [*Fluctuation Data Schema*](https://github.com/Euchie23/SquidStack/blob/main/Fluctuations/Data/DATA_SCHEMA.md)), was renamed to **`risk_eval`** for use in this application.
 
 Because the dataset already integrated **both trace metal and organic compound measurements in a unified long format**, it provided a consistent and efficient foundation for dietary exposure and risk calculations. This structure enabled direct computation of Estimated Daily Intake (EDI) and Hazard Quotients (HQ) without additional reshaping of analyte-level data.
 
