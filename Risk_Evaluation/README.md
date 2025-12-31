@@ -106,8 +106,12 @@ All components are implemented in **R Shiny**, with reactive logic and user-cont
 
 ### Biological Data (Simulated)
 
-- Trace metal concentrations (muscle tissue)
-- Organic compound concentrations (where applicable)
+The Risk Evaluation module primarily utilizes the **long-format analytical dataset originally developed for the Fluctuations dashboard**. This dataset, previously titled **`Long_format.csv`** (see [*Fluctuation Data Schema*](link)), was renamed to **`risk_eval`** for use in this application.
+
+Because the dataset already integrated **both trace metal and organic compound measurements in a unified long format**, it provided a consistent and efficient foundation for dietary exposure and risk calculations. This structure enabled direct computation of Estimated Daily Intake (EDI) and Hazard Quotients (HQ) without additional reshaping of analyte-level data.
+
+Only the **subset of variables required for risk evaluation**—including analyte identity, concentration, tissue type, year, and detection status (BLOD/BLOQ)—was extracted and processed. All biological values remain **simulated and anonymized**, while preserving realistic data structure and relationships.
+
 
 ### Reference Data
 
