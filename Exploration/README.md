@@ -72,7 +72,7 @@ Exploratory insight reduces uncertainty **upstream**, ensuring that resources fo
 
 ---
 
-## 🧪 Analytical Workflow
+## 🧪 Exploration Workflow
 
 ### Datasets
 Two main datasets drive this dashboard:  
