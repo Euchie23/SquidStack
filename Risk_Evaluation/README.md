@@ -66,11 +66,11 @@ This module enables **transparent, reproducible, and scenario-based risk screeni
 
 ---
 
-## 🧪 Analytical Workflow
+## 🧪 Risk Evaluation Workflow
 
 1. **Parameter Definition**
-   - Country, body weight, squid consumption
-   - BLOD/BLOQ multipliers for non-detects
+   - Country label, body weight, and squid consumption rate
+   - BLOD/BLOQ substitution multipliers for non-detects
 
 2. **Scenario Selection**
    - Normal (mean exposure)
@@ -81,15 +81,17 @@ This module enables **transparent, reproducible, and scenario-based risk screeni
    - Hazard Quotient (HQ = EDI / RfD)
 
 4. **Interactive Visualization**
-   - Dumbbell plots comparing exposure vs. risk
-   - Color-coded safety signals
+   - Dumbbell plots comparing relative exposure versus relative risk
+   - Color-coded safety signals to highlight potential concern
 
-5. **Dynamic Interpretation Engine**
-   - Automatically identifies **pollutants of concern**
-   - Distinguishes **essential vs. toxic compounds**
-   - Flags scenarios requiring monitoring
+5. **Scenario-Based Interpretation & Comparison Engine**
+   - Automatically identifies **pollutants of potential concern** within each country–scenario
+   - Differentiates **essential, tolerated, and toxic compounds** based on exposure–risk patterns
+   - Enables side-by-side comparison of multiple saved country scenarios
+   - Flags scenarios that may warrant closer monitoring under specific dietary assumptions
 
-All components are implemented in **R Shiny**, with reactive logic and user-controlled assumptions.
+All components are implemented in **R Shiny**, using reactive logic to ensure that visualizations and interpretations update dynamically in response to user-defined assumptions.
+
 
 ---
 
