@@ -6,7 +6,7 @@
 - More modifications made to Fluctuations Dashboard
 - Redeployment of Fluctuations Dashboardf
 - More modifications made to Exploration Dashboard
-- Redeployment of Fluctuations Dashboardf
+- Redeployment of Fluctuations Dashboard
 
 ## [November 2025]
 - More modifications made to Risk-Evaluation Dashboard
