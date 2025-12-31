@@ -60,7 +60,7 @@ Temporal analysis, including COVID-19 reprieve effects, helps organizations **pl
 
 ---
 
-## 🧪 Analytical Workflow
+## 🧪 Fluctuations Workflow
 
 1. **Dockside Briefing:** Overview and dataset context  
 2. **Temporal Trends:** Time series of pollutant levels by tissue  
