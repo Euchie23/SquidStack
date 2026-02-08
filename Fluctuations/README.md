@@ -74,7 +74,7 @@ All implemented in **R Shiny** with interactive plots, lag sliders, and tooltips
 
 ## 📊 Dashboard Access
 
-- **Live Dashboard:** [Fluctuations Dashboard](https://euchie23.shinyapps.io/fluctuations/)  
+- **Live Dashboard:** [Fluctuations Dashboard](https://euchie23.shinyapps.io/fluctuation/)  
 - **Preview Screenshot:**  
 ![Dashboard Screenshot](https://drive.google.com/uc?export=view&id=1du64VObcN-Ls9OZpeARc1eP7AQQhBHN9)
 
