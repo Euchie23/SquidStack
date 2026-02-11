@@ -10,8 +10,10 @@ Simulated concentrations of trace metal pollutants in squid tissues.
 | Area                | int  | Capture area number |
 | Tissue              | chr  | Tissue type analyzed (e.g., mantle, digestive gland) |
 | Gender              | int  | 0 = Female, 1 = Male |
-| dta_km              | int  | Distance (km) to Argentina shoreline |
-| dtfl_km             | int  | Distance (km) to Falkland Islands |
+|dta_km | int     | Distance from squid catch location to a representative reference point on the Argentine shelf (Patagonian shelf) |
+|dtfl_km | int       | Distance from squid catch location to a reference point along the north-western Falkland Islands shelf  |
+| dtu_km | int     | Distance from squid catch location to the Río de la Plata estuarine reference point  |
+|dtb_km | int       | Distance from squid catch location to the Lagoa dos Patos shelf-influenced reference point    |
 | Longitude           | chr  | Longitude in DMS format |
 | Latitude            | chr  | Latitude in DMS format |
 | Month_of_Capture    | int  | Month the sample was caught |
@@ -44,8 +46,10 @@ Long-format dataset used for analyzing time lags between environmental emissions
 | ID                  | chr   | Unique identifier for each sample-tissue combination (e.g., "49_14_muscle") |
 | Year                | int   | Year of sample collection (2019–2021)                                       |
 | Gender              | int   | 0 = Female, 1 = Male                                                        |
-| dta_km              | int   | Distance (km) to Argentina shoreline                                        |
-| dtfl_km             | int   | Distance (km) to Falkland Islands                                           |
+|dta_km | int     | Distance from squid catch location to a representative reference point on the Argentine shelf (Patagonian shelf) |
+|dtfl_km | int       | Distance from squid catch location to a reference point along the north-western Falkland Islands shelf  |
+| dtu_km | int     | Distance from squid catch location to the Río de la Plata estuarine reference point  |
+|dtb_km | int       | Distance from squid catch location to the Lagoa dos Patos shelf-influenced reference point    |
 | Longitude           | chr   | Longitude in DMS format                                                     |
 | Latitude            | chr   | Latitude in DMS format                                                      |
 | Month_of_Capture    | int   | Month sample was captured                                                   |
