@@ -15,8 +15,10 @@ Both main datasets (trace metals and organic compounds) share 14 columns contain
 | Area   | int      | Area # given by fishing vessel   |
 | Tissue             | chr     | Squid tissues analyzed  |
 | Gender (0=Females, 1=Males)| int     | Squid genders analyzed  |
-| dta_km (distance to Argentina in Km)| int     | Measured distance (Google Earth) from catch location to the shores of Argentina        |
-|dtfl_km (distance to Falkand Islands in km)| int       | Measured distance (Google Earth) from catch location to the shores of the Falkland Islands        |
+|  dta_km (distance to Argentina in Km)| int     | Distance from squid catch location to a representative reference point on the Argentine shelf (Patagonian shelf) |
+|dtfl_km (distance to Falkand Islands in km)| int       | Distance from squid catch location to a reference point along the north-western Falkland Islands shelf  |
+| dtu_km (distance to Uruguay in Km)| int     | Distance from squid catch location to the Río de la Plata estuarine reference point  |
+|dtb_km (distance to Brazil in km)| int       | Distance from squid catch location to the Lagoa dos Patos shelf-influenced reference point    |
 | Longitude          | chr     | longitude coordinates strings (DMS) of catch location   |
 | Latitude           | chr     | latitude coordinates strings (DMS) of catch location   |
 | Month_of_Capture   | int     | Month of capture for squids|
