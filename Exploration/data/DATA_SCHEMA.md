@@ -19,8 +19,8 @@ Both main datasets (trace metals and organic compounds) share 14 columns contain
 |dtfl_km (distance to Falkand Islands in km)| int       | Distance from squid catch location to a reference point along the north-western Falkland Islands shelf  |
 | dtu_km (distance to Uruguay in Km)| int     | Distance from squid catch location to the Río de la Plata estuarine reference point  |
 |dtb_km (distance to Brazil in km)| int       | Distance from squid catch location to the Lagoa dos Patos shelf-influenced reference point    |
-| Longitude          | chr     | longitude coordinates strings (DMS) of catch location   |
-| Latitude           | chr     | latitude coordinates strings (DMS) of catch location   |
+| Longitude          | chr     | longitude coordinates strings (DM) of catch location   |
+| Latitude           | chr     | latitude coordinates strings (DM) of catch location   |
 | Month_of_Capture   | int     | Month of capture for squids|
 | Mantle_length_ mm  | num     | Squid Mantle Length measured in milli meters  |
 |Wet Weight_g        | num     | Full squid body weight measured in lab (grams) before dissection  |
