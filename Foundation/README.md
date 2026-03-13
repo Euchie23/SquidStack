@@ -80,7 +80,7 @@ Notes and limitations are embedded at each stage to guide interpretation and pre
 ---
 
 ## 📊 Dashboard Access
-![Dashboard Screenshot](https://drive.google.com/uc?export=view&id=1bWfy7A7wf4PUSUG3hI8052f2CNQkX5Wr)
+![Dashboard Screenshot](https://drive.google.com/uc?export=view&id=1IollqHpCFt-9dU5ix-pxYlgMLz_oGs_2)
 
 🔗 **[Launch the Foundation Dashboard](https://euchie23.shinyapps.io/foundation/)**  
 *Dashboard supports interactive review of recovery rates, validation status, and analytical assumptions.*
