@@ -31,7 +31,7 @@ These dashboards translate field and lab research into **explorable insights**, 
 
 Each SquidStack module represents a stage in the analytical journey — from validating data to surfacing actionable insights.  
 
-| Module | Nickname | Value | Status | Link | 
+| Module/App | Nickname | Value | Status | Link | 
 |--------|----------|-------|--------|------| 
 | 🧱 [**Foundation**](https://euchie23.shinyapps.io/foundation/) | *The Chart Room* 🧭 | Validates data and prepares stakeholders for reliable insights | ✅ Complete | [View README](https://github.com/Euchie23/SquidStack/tree/main/Foundation) | 
 | 🧪 [**Exploration**](https://euchie23.shinyapps.io/exploration/) | *The Deep Dive* 🤿 | Reveals statistical patterns in pollutant data to guide analysis priorities | ✅ Complete | [View README](https://github.com/Euchie23/SquidStack/tree/main/Exploration) | 
