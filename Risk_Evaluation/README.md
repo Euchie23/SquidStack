@@ -132,6 +132,9 @@ Only the **subset of variables required for risk evaluation**—including analyt
 - HQ > 1 indicates **potential concern**, not confirmed harm
 - Organic compounds without RfDs are **excluded from risk scoring**
 - Detection limit handling (BLOD/BLOQ) introduces uncertainty
+- Analysis assumes a single squid species as representative
+- Species differences in bioaccumulation and environmental exposure are not captured
+- Reported consumption may not reflect actual intake due to trade and reporting methods
 
 > ⚠️ Use this module to **prioritize follow-up**, not replace formal risk assessment.
 
