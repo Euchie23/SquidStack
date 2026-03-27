@@ -54,7 +54,7 @@ This module enables **transparent, reproducible, and scenario-based risk screeni
 
 ---
 
-## 🔍 Key Validation Findings
+## 🔍 Key Validation Notes
 
 - Biological datasets are **simulated** and structurally representative
 - Absolute concentrations are **not validated for regulatory use**
