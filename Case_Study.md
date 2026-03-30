@@ -1,4 +1,4 @@
-# 🐙 SquidStack – Dietary Risk Evaluation for Cephalopods
+# 🐙 SquidStack – Decision-Support Risk Evaluation for Cephalopod Consumption
 
 ## Context & Problem Framing
 Seafood, particularly cephalopods like *Illex argentinus*, can bioaccumulate heavy metals and organic contaminants, transferring directly into human diets. 
