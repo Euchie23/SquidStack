@@ -13,7 +13,6 @@ The **Risk Evaluation Dashboard** within SquidStack addresses the key decision q
 
 By integrating analytical reliability, exposure scenarios, and toxicological thresholds, this tool translates complex environmental data into actionable decision insights.
 
-By integrating analytical reliability, exposure scenarios, and toxicological thresholds, this tool translates complex environmental data into actionable decision insights.  
 
 ---
 
