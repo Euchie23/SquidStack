@@ -1,13 +1,17 @@
 # 🐙 SquidStack – Dietary Risk Evaluation for Cephalopods
 
 ## Context & Problem Framing
-Seafood, particularly cephalopods like *Illex argentinus*, can bioaccumulate heavy metals and organic contaminants, transferring directly into human diets.  
+Seafood, particularly cephalopods like *Illex argentinus*, can bioaccumulate heavy metals and organic contaminants, transferring directly into human diets. 
+
+This assessment focuses on two countries: **Argentina**, where the squid were primarily caught in the Southwest Atlantic Ocean, and **Taiwan**, where squid consumption is relatively high. These countries were selected to demonstrate the tool’s applicability across different consumption patterns and population exposures.  
 
 Public health authorities and policymakers face a critical challenge: **they need to know whether contaminant measurements are reliable enough to inform human health risk assessment and guide sustainable seafood consumption recommendations**.  
 
 The **Risk Evaluation Dashboard** within SquidStack addresses the key decision question:
 
 > **How can these measurements be used to guide sustainable seafood consumption, regulatory priorities, and targeted monitoring of high-risk contaminants?**
+
+By integrating analytical reliability, exposure scenarios, and toxicological thresholds, this tool translates complex environmental data into actionable decision insights.
 
 By integrating analytical reliability, exposure scenarios, and toxicological thresholds, this tool translates complex environmental data into actionable decision insights.  
 
@@ -24,7 +28,7 @@ By integrating analytical reliability, exposure scenarios, and toxicological thr
 ## Key Findings
 
 ### Metals
-- **Persistent risk:** Metals I, D, and A consistently exceeded or approached health-based guidance values, signaling **priority risk**.  
+- **Persistent risk:** Metals I (highly toxic), D (essential), and A (essential) consistently exceeded or approached health-based guidance values, signaling **priority risk**.  
 - **Scenario impact:** Taiwan’s higher consumption scenarios (Normal & Extreme) showed elevated HQs, suggesting **emerging risk and monitoring necessity**.  
 - **Temporal trends:** Peaks in May 2019, April 2020, and June 2019–2021 indicate **specific windows of concern**, useful for planning targeted monitoring campaigns.  
 
