@@ -44,7 +44,7 @@ The dashboard **supports the Risk Evaluation module** by showing when environmen
 
 ---
 
-## Lessons Learned / Consultancy Insights
+## Lessons Learned / Insights
 1. **Decision-focused presentation is key:** Presenting hazard metrics alongside consumption scenarios makes data actionable, not just descriptive.  
 2. **Transparency builds trust:** Explicitly stating limitations (e.g., CRM gaps, species-specific assumptions) allows stakeholders to make **informed risk judgments**.  
 3. **Scenario analysis informs resource allocation:** Comparing Normal vs Extreme consumption highlights where regulators should focus monitoring, public advisories, or regulatory action.  
