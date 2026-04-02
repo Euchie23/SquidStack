@@ -44,6 +44,32 @@ The dashboard **supports the Risk Evaluation module** by showing when environmen
 
 ---
 
+## Decision Implications
+
+The analysis identifies a clear hierarchy of contaminant risk and highlights where regulatory attention should be focused.
+
+**Key actions for decision-makers:**
+
+- **Prioritize monitoring of high-risk metals (I, D, A):**  
+  These consistently exceed or approach health-based thresholds and represent the most immediate concern for dietary exposure.
+
+- **Target high-consumption populations (e.g., Taiwan scenarios):**  
+  Elevated Hazard Quotients under both Normal and Extreme consumption indicate that risk is driven not only by contamination levels, but also by dietary patterns.
+
+- **Implement time-sensitive monitoring strategies:**  
+  Identified peaks (e.g., May 2019, April 2020, June 2019–2021) suggest specific periods where intensified sampling and regulatory attention are warranted.
+
+- **Maintain lower priority for organic contaminants (with exceptions):**  
+  Organics generally fall below risk thresholds, allowing resources to be focused on metals, while still tracking occasional exceedances (e.g., Organic_C).
+
+- **Incorporate uncertainty into regulatory decisions:**  
+  Limitations in analytical validation (e.g., CRM gaps) should be explicitly considered when setting thresholds, issuing advisories, or prioritizing further investigation.
+
+**Overall implication:**  
+This framework enables a shift from broad monitoring to **targeted, risk-based decision-making**, ensuring that regulatory resources are allocated efficiently while maintaining protection of public health.
+
+---
+
 ## Lessons Learned / Insights
 1. **Decision-focused presentation is key:** Presenting hazard metrics alongside consumption scenarios makes data actionable, not just descriptive.  
 2. **Transparency builds trust:** Explicitly stating limitations (e.g., CRM gaps, species-specific assumptions) allows stakeholders to make **informed risk judgments**.  
