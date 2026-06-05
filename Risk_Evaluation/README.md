@@ -32,7 +32,7 @@ The dashboard is designed for **screening, prioritization, and communication**, 
 This module focuses exclusively on:
 
 - **Muscle tissue** (edible portion)
-> The primary dietary-risk calculation uses muscle tissue because it is the most consistently consumed squid tissue across the comparison countries. Other tissue types are retained in the broader dataset for ecological/reference context but are not used in the main consumption-risk workflow. >
+> The primary dietary-risk calculation uses muscle tissue because it is the most consistently consumed squid tissue across the comparison countries. Other tissue types are retained in the broader dataset for ecological/reference context but are not used in the main consumption-risk workflow.
 - **Trace metals** (essential and toxic)
 - **Organic compounds** (screened where reference doses exist)
 
@@ -61,7 +61,7 @@ This module enables **transparent, reproducible, and scenario-based risk screeni
 - Biological datasets are **simulated** and structurally representative
 - Absolute concentrations are **not validated for regulatory use**
 - HQ and EDI calculations follow **standard methodologies**
-  > Concentration-basis handling is explicitly tracked so users can see whether risk estimates use wet-weight converted values or dry-weight screening estimates.>
+  > Concentration-basis handling is explicitly tracked so users can see whether risk estimates use wet-weight converted values or dry-weight screening estimates.
 - Results are **screening-level indicators**, not clinical risk estimates
 
 > ⚠️ **Consultancy Note:**  
