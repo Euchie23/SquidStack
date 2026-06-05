@@ -2,7 +2,7 @@
 
 ## 🧭 Problem Framing & Decision Context
 
-Marine pollution in *Illex argentinus* can reflect **ecosystem stress driven by industrial and agricultural activity**, and may also respond to **temporary changes in human activity**, such as those seen during the COVID-19 pandemic.
+Marine pollution in Illex argentinus can reflect ecosystem stress potentially associated with **industrial activity, agricultural runoff, and environmental variability**. and may also respond to **temporary changes in human activity**, such as those seen during the COVID-19 pandemic.
 
 The **Fluctuations Dashboard** explores **temporal patterns** in pollutant concentrations, with special attention to potential **lag effects** between economic activity and bioaccumulation, including the possible **COVID-19 “reprieve”** period in 2020–2021.
 
@@ -17,7 +17,8 @@ This dashboard enables stakeholders to explore:
 - Year-to-year pollutant trends (2019–2021)  
 - Tissue-specific bioaccumulation  
 - Potential lag effects between industrial/agricultural activity and contaminant levels  
-- Possible environmental “reprieve” during COVID-19 restrictions  
+- Possible environmental “reprieve” during COVID-19 restrictions
+- Exploratory statistical groupings using ANOVA/Tukey or Kruskal-Wallis/Dunn routes, selected based on valid normality screening and sample-size constraints.
 
 Simulated datasets (reflecting real marine data but anonymized) and public economic indicators allow **interactive temporal analysis** in R Shiny. Insights guide **prioritization for monitoring, assessment, and early warning**, without making causal claims.
 
@@ -63,7 +64,7 @@ Temporal analysis, including COVID-19 reprieve effects, helps organizations **pl
 ## 🧪 Fluctuations Workflow
 
 1. **Dockside Briefing:** Overview and dataset context  
-2. **Temporal Trends:** Time series of pollutant levels by tissue  
+2. **Temporal Trends:** Tissue- and year-specific pollutant comparisons with BLOD/BLOQ sensitivity controls, optional outlier handling, sample-size labels, CLD groupings, and RML screening references.
 3. **Lag Exploration:** Sliding correlation with industrial/agricultural activity  
 4. **Comparative Panels:** Tissue-specific and year-specific comparisons  
 5. **Dynamic Insights:** Summary of temporal patterns and potential COVID-19 effects  
@@ -104,6 +105,9 @@ All implemented in **R Shiny** with interactive plots, lag sliders, and tooltips
 - Temporal alignment with economic indicators **does not imply causation**.  
 - Lag analysis and COVID-19 reprieve observations are **exploratory**.  
 - Focus on **relative patterns** across tissues, years, and pollutants.
+- Statistical groupings are exploratory and depend on sample size, normality screening, BLOD/BLOQ settings, and outlier choices.
+- RML lines are screening reference values; exceedance should be interpreted as a priority signal for closer review, not automatic regulatory non-compliance.
+- Lag correlations indicate temporal alignment, not causal proof.
 
 > ⚠️ This module is designed for **risk screening and early-stage hypothesis generation**, not definitive regulatory assessment.
 
@@ -115,6 +119,8 @@ All implemented in **R Shiny** with interactive plots, lag sliders, and tooltips
 - Prioritize unusual pollutant patterns for **confirmatory assessment**.  
 - Compare trends with external environmental or policy events (e.g., COVID-19 lockdowns).  
 - Integrate insights into **early-warning or ESG reporting**, highlighting temporal context.
+- Review sample sizes and CLD/statistical notes before interpreting tissue-year differences.
+- Treat lag-effect outputs as screening evidence for follow-up hypotheses rather than causal attribution.
 
 ---
 
