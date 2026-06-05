@@ -19,6 +19,7 @@ This module allows users to:
 - Compare **normal vs. high-exposure (95th percentile)** scenarios
 - Explore sensitivity to **body weight, consumption rate, and detection limits (BLOD/BLOQ)**
 - Generate **dynamic, consultancy-grade risk interpretations**
+- Track concentration basis using wet-weight converted values where sample-specific wet/dry preparation data are available, while flagging dry-weight screening estimates where conversion data are missing.
 
 The dashboard is designed for **screening, prioritization, and communication**, not regulatory adjudication.
 
@@ -31,6 +32,7 @@ The dashboard is designed for **screening, prioritization, and communication**, 
 This module focuses exclusively on:
 
 - **Muscle tissue** (edible portion)
+> The primary dietary-risk calculation uses muscle tissue because it is the most consistently consumed squid tissue across the comparison countries. Other tissue types are retained in the broader dataset for ecological/reference context but are not used in the main consumption-risk workflow. >
 - **Trace metals** (essential and toxic)
 - **Organic compounds** (screened where reference doses exist)
 
@@ -59,6 +61,7 @@ This module enables **transparent, reproducible, and scenario-based risk screeni
 - Biological datasets are **simulated** and structurally representative
 - Absolute concentrations are **not validated for regulatory use**
 - HQ and EDI calculations follow **standard methodologies**
+  > Concentration-basis handling is explicitly tracked so users can see whether risk estimates use wet-weight converted values or dry-weight screening estimates.>
 - Results are **screening-level indicators**, not clinical risk estimates
 
 > ⚠️ **Consultancy Note:**  
@@ -79,6 +82,8 @@ This module enables **transparent, reproducible, and scenario-based risk screeni
 3. **Risk Metric Calculation**
    - Estimated Daily Intake (EDI)
    - Hazard Quotient (HQ = EDI / RfD)
+   - Wet-weight equivalent concentration is used where wet/dry tissue preparation data are available.
+   - Where conversion data are unavailable, dry-weight concentrations are retained as clearly flagged screening estimates rather than fabricated or discarded.
 
 4. **Interactive Visualization**
    - Dumbbell plots comparing relative exposure versus relative risk
@@ -110,6 +115,8 @@ All components are implemented in **R Shiny**, using reactive logic to ensure th
 
 The Risk Evaluation module primarily utilizes the **long-format analytical dataset originally developed for the Fluctuations dashboard**. This dataset, previously titled **`Long-Format Dataset(Long_format.csv)`** (see [*Fluctuation Data Schema*](https://github.com/Euchie23/SquidStack/blob/main/Fluctuations/Data/DATA_SCHEMA.md)), was renamed to **`risk_eval`** for use in this application.
 
+The updated dataset also includes wet/dry preparation metadata where available, including wet tissue mass, dry tissue mass, dry fraction, concentration basis, and conversion status. These fields allow the app to distinguish between wet-weight converted concentrations and dry-weight screening estimates during dietary exposure calculations. For 2019 samples, matching wet/dry preparation records were unavailable, so those records may remain dry-weight screening estimates. The dashboard flags this limitation dynamically when affected scenarios are selected.
+
 Because the dataset already integrated **both trace metal and organic compound measurements in a unified long format**, it provided a consistent and efficient foundation for dietary exposure and risk calculations. This structure enabled direct computation of Estimated Daily Intake (EDI) and Hazard Quotients (HQ) without additional reshaping of analyte-level data.
 
 Only the **subset of variables required for risk evaluation**—including analyte identity, concentration, tissue type, year, and detection status (BLOD/BLOQ)—was extracted and processed. All biological values remain **simulated and anonymized**, while preserving realistic data structure and relationships.
@@ -135,6 +142,10 @@ Only the **subset of variables required for risk evaluation**—including analyt
 - Analysis assumes a single squid species as representative
 - Species differences in bioaccumulation and environmental exposure are not captured
 - Reported consumption may not reflect actual intake due to trade and reporting methods
+- Seafood consumption data are usually closer to edible wet weight, while some laboratory concentrations originate from lyophilized dry tissue.
+- Wet-weight conversion is applied where sample-specific wet/dry tissue data are available.
+- Some records, especially 2019 samples, remain dry-weight screening estimates because matching wet/dry conversion data were unavailable.
+- Comparisons involving dry-weight screening records should be interpreted cautiously, especially for year-level comparisons.
 
 > ⚠️ Use this module to **prioritize follow-up**, not replace formal risk assessment.
 
