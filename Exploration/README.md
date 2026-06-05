@@ -102,7 +102,7 @@ The dashboard follows a staged exploratory workflow:
 - **Live Dashboard:** [Exploration Dashboard](https://euchie23.shinyapps.io/exploration/)  
 - Screenshot:
 
-![Dashboard Screenshot](https://drive.google.com/uc?export=view&id=1nTa8z-X-XBjP54mEl635GU-MxdC-mMPM)
+![Dashboard Screenshot](https://drive.google.com/uc?export=view&id=1vcEQ2Vhq4lGDvPEA2xGPvwYDGU9nAA__)
 
 - Interactive tabs allow exploration by tissue, year, biological trait, and pollutant group.
 
