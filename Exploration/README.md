@@ -61,7 +61,7 @@ Exploratory insight reduces uncertainty **upstream**, ensuring that resources fo
 ---
 
 
-## 🔍 Key Validation Findings
+## 🔍 Key Exploratory Findings
 
 - Tissue-specific accumulation patterns are evident  
 - Some biological traits (size, sex, maturity) show differentiated contaminant loads  
@@ -114,7 +114,9 @@ The dashboard follows a staged exploratory workflow:
 - **Simulated Data:** All datasets are anonymized or simulated to preserve confidentiality; values do not reflect actual measurements.  
 - **Validation Gaps:** Only 7 of 10 trace metals are validated; organic compounds lack full validation.  
 - **Relative, Not Absolute:** Focus on patterns (e.g., by tissue, year, or trait) rather than direct numerical comparisons across analytes.  
-- **Interpretive Caution:** Results should be treated as **consultancy-grade guidance** for early decision-making, not as conclusive scientific evidence.
+- **Interpretive Caution:** Results should be treated as **consultancy-style exploratory guidance** for early decision-making, not as conclusive scientific or regulatory evidence.
+- **Detection-Limit Handling:** BLOD/BLOQ values are retained through user-adjustable multiplier assumptions, allowing censored observations to remain visible in exploratory analysis while making uncertainty explicit.
+
 
 > ⚠️ Using this dashboard as a **decision-support tool** is appropriate for exploratory guidance, monitoring prioritization, and early risk assessment.
 
@@ -157,6 +159,6 @@ This **public repo** hosts the interactive dashboard and simulated datasets.
 
 ---
 
-> 🦑 *Module 2 of the [SquidStack](https://github.com/Euchie23/SquidStack) series —  focused on marine Pollution, industrial emissions assessments & risk analysis.* <br>
+> 🦑 *Module 2 of the [SquidStack](https://github.com/Euchie23/SquidStack) series —  focused on exploratory marine pollution analysis, contaminant pattern discovery, and early-stage risk screening.* <br>
 > 📌 This module is the next stage in our data journey from the [**Foundation Dashboard**](https://github.com/Euchie23/SquidStack/edit/main/Foundation/).
 [Click here for App](https://euchie23.shinyapps.io/foundation/)
