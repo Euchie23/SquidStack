@@ -51,7 +51,7 @@ Temporal analysis, including COVID-19 reprieve effects, helps organizations **pl
 
 ---
 
-## 🔍 Key Validation Findings
+## 🔍 Key Analytical Cautions
 
 - Biological datasets are **simulated**; absolute concentrations are not validated.  
 - Temporal associations with economic indicators are **hypothesis-generating**, not causal.  
