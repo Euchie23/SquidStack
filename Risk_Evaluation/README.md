@@ -104,6 +104,7 @@ All components are implemented in **R Shiny**, using reactive logic to ensure th
 
 - **Preview Screenshot:**  
 ![Dashboard Screenshot](https://drive.google.com/uc?export=view&id=1bh41kT6Ldf2ESV3I9r6bBOFAF5NNK9xh)
+- **Guided Tour** [🎥 Watch Tour](https://youtu.be/YYWmWo-iLIg) 
 - **Live Dashboard:** [Risk Evaluation Dashboard](https://euchie23.shinyapps.io/risk_evaluation/)  
 - **Module Location:** `SquidStack/Risk_Evaluation/`
 
