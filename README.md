@@ -31,12 +31,12 @@ These dashboards translate field and lab research into **explorable insights**, 
 
 Each SquidStack module represents a stage in the analytical journey — from validating data to surfacing actionable insights.  
 
-| Module/App | Nickname | Value | Status | Link | 
-|--------|----------|-------|--------|------| 
-| 🧱 [**Foundation**](https://euchie23.shinyapps.io/foundation/) | *The Chart Room* 🧭 | Validates data and prepares stakeholders for reliable insights | ✅ Complete | [View README](https://github.com/Euchie23/SquidStack/tree/main/Foundation) | 
-| 🧪 [**Exploration**](https://euchie23.shinyapps.io/exploration/) | *The Deep Dive* 🤿 | Reveals statistical patterns in pollutant data to guide analysis priorities | ✅ Complete | [View README](https://github.com/Euchie23/SquidStack/tree/main/Exploration) | 
-| 📈 [**Fluctuations**](https://euchie23.shinyapps.io/fluctuation/) | *Currents & Tides* 🌊 | Detects temporal trends and lag effects for proactive environmental monitoring | ✅ Complete | [View README](https://github.com/Euchie23/SquidStack/tree/main/Fluctuations) | 
-| ⚠️ [**Risk Evaluation**](https://euchie23.shinyapps.io/risk_evaluation/) | *The Surface Impact* ☣️ | Estimates human health risks to inform seafood safety decisions | ✅ Complete | [View README](https://github.com/Euchie23/SquidStack/tree/main/Risk_Evaluation) |
+| Module/App | Nickname | Value | Status | README | Tour |
+|--------|----------|-------|--------|------|------| 
+| 🧱 [**Foundation**](https://euchie23.shinyapps.io/foundation/) | *The Chart Room* 🧭 | Validates data and prepares stakeholders for reliable insights | ✅ Complete | [View README](https://github.com/Euchie23/SquidStack/tree/main/Foundation) | - |
+| 🧪 [**Exploration**](https://euchie23.shinyapps.io/exploration/) | *The Deep Dive* 🤿 | Reveals statistical patterns in pollutant data to guide analysis priorities | ✅ Complete | [View README](https://github.com/Euchie23/SquidStack/tree/main/Exploration) | - | 
+| 📈 [**Fluctuations**](https://euchie23.shinyapps.io/fluctuation/) | *Currents & Tides* 🌊 | Detects temporal trends and lag effects for proactive environmental monitoring | ✅ Complete | [View README](https://github.com/Euchie23/SquidStack/tree/main/Fluctuations) | [🎥 Watch Tour](https://youtu.be/xaMRiZxPD-U)| 
+| ⚠️ [**Risk Evaluation**](https://euchie23.shinyapps.io/risk_evaluation/) | *The Surface Impact* ☣️ | Estimates human health risks to inform seafood safety decisions | ✅ Complete | [View README](https://github.com/Euchie23/SquidStack/tree/main/Risk_Evaluation) |[🎥 Watch Tour](https://youtu.be/YYWmWo-iLIg)|
 
 🕹️ **Click here to see the [SquidStack Changelog](CHANGELOG.md)** — All updates to modules, dashboards, and workflows are tracked for transparency.
 
